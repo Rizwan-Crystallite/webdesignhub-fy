@@ -129,11 +129,11 @@ const Page = () => {
                 <Approach />
                 <SmallBanner content={smallbanner} />
                 <Services content={services} />
+                <Letstalk content={letstalk} />
                 {/* <Portfolios content={portfolios} /> */}
                 <Reviews />
                 <Weare />
                 <Contact />
-                <Letstalk content={letstalk} />
                 <Footer />
                 <Script id="general-schema" type="application/ld+json">
                     {`

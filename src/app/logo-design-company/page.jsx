@@ -195,11 +195,11 @@ const Page = () => {
                 <Hero content={hero} />
                 <SmallBanner content={smallbanner} />
                 <Services content={services} />
+                <Letstalk content={letstalk} />
                 {/* <Portfolios content={portfolios} /> */}
                 <Packages content={packages} />
                 {/* <Combo /> */}
                 <Reviews content={reviews} />
-                <Letstalk content={letstalk} />
                 <Weare />
                 <Contact />
                 <Footer />
