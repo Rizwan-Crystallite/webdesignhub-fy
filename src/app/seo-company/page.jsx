@@ -20,29 +20,29 @@ const Page = () => {
         subtitle: "From Rankings to Revenue",
         title: "Turbocharge Your Traffic with Our SEO Company!",
         desc: "Witness the change as our professional SEO company, Web Design Hub, moves you from search engine ranks to higher income. We'll boost website traffic using our tested techniques so you can connect with your target market and experience real company success.",
-        points: ["Research & Analysis ", "E-Commerce SEO", "Technical SEO Audit", "On-Page & Off-Page"],
-        bg: "__seoServicesHeroGradientBg",
-        isForm: true,
-        btnBg: "bg-[#577981]",
-        btnBorder: "border-[#577981]",
-        btnHover: "hover:bg-[#577981]"
+        img: {
+            src: "/seo-services/hero/hero.png",
+            width: "623",
+            height: "462",
+            css: "lg:mb-[150px] xl:mb-[100px]"
+        },
+        form: true
     };
     // Array for Small Banner Component Props
     const smallbanner = {
         page: "ecommerce",
         title: "Dominate Search Engine Results With Our SEO Services",
         desc: "Don't delay your digital success, contact us today and schedule an obligation-free  SEO Consultation with us!",
-        img: smallBannerImage,
-        bgColor: "__seoServicesHeroGradientBg",
-        btnBg: "bg-[#577981]",
-        btnBorder: "border-[#577981]",
-        btnHover: "hover:bg-[#577981]",
-        theme: "dark"
+        img: {
+            src: "/seo-services/smallBanner.png",
+            width: "597",
+            height: "446",
+        },
     };
     // Array for Packages Component Props
     const packages = {
         subtitle: "SEO Packages",
-        title: "Increased Profit on a Budget with Our SEO Agency",
+        title: "Increased <span class='text-red'>Profit on a Budget</span> with Our SEO Agency",
         desc: "Our affordable SEO agency will increase your profit margin without overspending – hire us to rank on search results in 30 days.",
         key: 5,
         name: "SEO"
@@ -80,11 +80,11 @@ const Page = () => {
                 <Hero content={hero} />
                 <Services />
                 <SmallBanner content={smallbanner} />
+                <Letstalk content={letstalk} />
                 <Packages content={packages} />
                 <Reviews content={reviews} />
                 <Weare />
                 <Contact />
-                <Letstalk content={letstalk} />
                 <Footer />
                 <Script id="general-schema" type="application/ld+json">
                     {`

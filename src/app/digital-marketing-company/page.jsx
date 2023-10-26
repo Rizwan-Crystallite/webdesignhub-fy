@@ -22,30 +22,28 @@ const Page = () => {
         subtitle: false,
         title: "Hire Top Digital Marketing Company Achieve Maximum ROI in Just 30 Days",
         desc: "Are you looking to see actual, noticeable results with marketing in no time? That's our specialty at top digital marketing company. We design smart campaigns using creative thinking and accurate data to make your brand more visible online. Our services include;",
-        points: ["SEO Content Marketing", "Pay Per Click Ads", "Social Media Marketing", "Conversion Rate"],
-        banner,
-        bg: "__digitalMarketingHeroGradientBg",
-        isForm: true,
-        btnBg: "bg-[#8A6EA5]",
-        btnBorder: "border-[#8A6EA5]",
-        btnHover: "hover:bg-[#8A6EA5]"
+        img: {
+            src: "/digital-marketing/hero/hero.png",
+            width: "344",
+            height: "767",
+        },
+        form: true
     };
     // Array for Small Banner Component Props
     const smallbanner = {
         page: "digitalMarketing",
         title: "Get Noticed Online Our Creative Digital Marketing Company",
         desc: "Let Web Design Hub be your point of reference as you create and improve your digital presence.",
-        img: smallBannerImage,
-        bgColor: "__digitalMarketingHeroGradientBg",
-        btnBg: "bg-[#8A6EA5]",
-        btnBorder: "border-[#8A6EA5]",
-        btnHover: "hover:bg-[#8A6EA5]",
-        theme: "dark"
+        img: {
+            src: "/digital-marketing/smallBanner.png",
+            width: "515",
+            height: "584",
+        },
     };
     // Array for Packages Component Props
     const packages = {
         subtitle: "Digital Marketing Packages",
-        title: "Budget-Friendly Digital Brilliance",
+        title: "Budget-Friendly <span class='text-red'>Digital</span> Brilliance",
         desc: "Our affordable packages never fail to provide the highest quality digital marketing services. What else do you need?",
         key: 7,
         name: "Digital Marketing"
@@ -89,12 +87,12 @@ const Page = () => {
                 <Hero content={hero} />
                 <Services />
                 <SmallBanner content={smallbanner} />
-                <Steps />
+                <Letstalk content={letstalk} />
+                {/* <Steps /> */}
                 <Packages content={packages} />
                 <Reviews content={reviews} />
                 <Weare />
                 <Contact />
-                <Letstalk content={letstalk} />
                 <Footer />
                 <Script id="general-schema" type="application/ld+json">
                     {`

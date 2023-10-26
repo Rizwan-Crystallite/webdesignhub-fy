@@ -27,25 +27,23 @@ const Page = () => {
         subtitle: "Ecommerce Website Design Company",
         title: "Revamping Retail Space With Ecommerce Solutions",
         desc: "As an Ecommerce Solutions Company, we excel in revamping websites across various ecommerce platforms, crafting tailored solutions that drive success on Shopify, WooCommerce, Magento, and more.",
-        points: ["Website Design", "Analytics & Tracking", "Conversion Optimization ", "Website Development"],
-        banner,
-        bg: "__ecommerceHeroGradientBg",
-        isForm: true,
-        btnBg: "bg-[#005368]",
-        btnBorder: "border-[#005368]",
-        btnHover: "hover:bg-[#005368]"
+        img: {
+            src: "/ecommerce/hero/hero.png",
+            width: "513",
+            height: "750",
+        },
+        form: true
     };
     // Array for Small Banner Component Props
     const smallbanner = {
         page: "ecommerce",
         title: "The Masters of eCommerce Website Design",
         desc: "At Web Design Hub,we design ecommerce websites that not only look fantastic but also generate results that distinguish your company in the market.",
-        img: smallBannerImage,
-        bgColor: "__ecommerceHeroGradientBg",
-        btnBg: "bg-[#005368]",
-        btnBorder: "border-[#005368]",
-        btnHover: "hover:bg-[#005368]",
-        theme: "dark"
+        img: {
+            src: "/ecommerce/smallBanner.png",
+            width: "420",
+            height: "412",
+        },
     };
     // Array for Portfolios Component Props
     const portfolios = {
@@ -57,7 +55,7 @@ const Page = () => {
     // Array for Packages Component Props
     const packages = {
         subtitle: "Affordable Packages",
-        title: "Finding Value in Every Dollar",
+        title: "Finding <span class='text-red'>Value</span> in Every Dollar",
         desc: "our eCommerce solutions company, we prioritize affordability, and delivering top-quality services that won't strain your budget. Experience excellence without compromise.",
         key: 6,
         name: "E-Commerce"
@@ -95,12 +93,12 @@ const Page = () => {
                 <Hero content={hero} />
                 <Services />
                 <SmallBanner content={smallbanner} />
-                <Portfolios content={portfolios} />
+                <Letstalk content={letstalk} />
+                {/* <Portfolios content={portfolios} /> */}
                 <Packages content={packages} />
                 <Reviews content={reviews} />
                 <Weare />
                 <Contact />
-                <Letstalk content={letstalk} />
                 <Footer />
                 <Script id="general-schema" type="application/ld+json">
                     {`

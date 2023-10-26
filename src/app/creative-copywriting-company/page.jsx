@@ -21,30 +21,28 @@ const Page = () => {
         subtitle: "Top Copywriters For Hire",
         title: "Dominate Your Market with Our Creative Copywriting Company",
         desc: "Web Design Hub shapes your words and ideas into perfectly persuasive tales and narratives. As a highly competitive copywriting company, we grab the attention of your audience, driving positive outcomes. Our team comprises of experienced;",
-        points: ["SEO Copywriters", "Website Copywriters", "Technical Copywriters", "Landing Page Copywriters"],
-        banner,
-        bg: "__creativeCopywritingHeroGradientBg",
-        isForm: true,
-        btnBg: "bg-[#768DF1]",
-        btnBorder: "border-[#768DF1]",
-        btnHover: "hover:bg-[#768DF1]"
+        img: {
+            src: "/creative-copywriting/hero/hero.png",
+            width: "590",
+            height: "672",
+        },
+        form: true
     };
     // Array for Small Banner Component Props
     const smallbanner = {
         page: "creativeCopywriting",
         title: "Weave Your Digital Dreams with Our Professional Copywriters",
         desc: "Top copywriters at Web Design Hub write the best content distinguishing your business from others. Our strategic finesse helps create the web presence everyone wishes for.",
-        img: smallBannerImage,
-        bgColor: "__creativeCopywritingHeroGradientBg",
-        btnBg: "bg-[#768DF1]",
-        btnBorder: "border-[#768DF1]",
-        btnHover: "hover:bg-[#768DF1]",
-        theme: "dark"
+        img: {
+            src: "/creative-copywriting/smallBanner.png",
+            width: "400",
+            height: "399",
+        },
     };
     // Array for Packages Component Props
     const packages = {
         subtitle: "Reasonable Prices",
-        title: "That Fits Your Budget",
+        title: "That <span class='text-red'>Fits</span> Your Budget",
         desc: "With affordable prices, we have exclusive digital art and design facilities, customized for your individual needs",
         key: 9,
         name: "Creative Copy Writing"
@@ -83,11 +81,11 @@ const Page = () => {
                 <Hero content={hero} />
                 <Services />
                 <SmallBanner content={smallbanner} />
+                <Letstalk content={letstalk} />
                 <Packages content={packages} />
                 <Reviews content={reviews} />
                 <Weare />
                 <Contact />
-                <Letstalk content={letstalk} />
                 <Footer />
                 <Script id="general-schema" type="application/ld+json">
                     {`

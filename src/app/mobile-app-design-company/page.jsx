@@ -27,25 +27,23 @@ const page = () => {
         subtitle: "Mobile App Design Company",
         title: "Experience Building A Mobile App At Its Finest",
         desc: "Web Design Hub is leading the way in mobile app design and development innovation. Our expertise extends beyond  design, and we provide mobile app developers with the essential resources, enabling them to build efficient mobile applications for businesses.",
-        points: ["Multi Device Integration", "Scalability", "Easy Monetization", "Interactivity"],
-        banner,
-        bg: "__mobileApplicationHeroGradientBg",
-        isForm: true,
-        btnBg: "bg-[#7AAF60]",
-        btnBorder: "border-[#7AAF60]",
-        btnHover: "hover:bg-[#7AAF60]"
+        img: {
+            src: "/mobile-application/hero/hero.png",
+            width: "373",
+            height: "700",
+        },
+        form: true
     };
     // Array for Small Banner Component Props
     const smallbanner = {
         page: "mobileApplication",
         title: "Let us develop a responsive website to help you attract more visitors",
         desc: "Our professional web development team is at your service, dedicated to design and develop dynamic websites that urges visitors to take your desired action on the website.",
-        img: smallBannerImage,
-        bgColor: "__mobileApplicationHeroGradientBg",
-        btnBg: "bg-[#7AAF60]",
-        btnBorder: "border-[#7AAF60]",
-        btnHover: "hover:bg-[#7AAF60]",
-        theme: "dark"
+        img: {
+            src: "/mobile-application/smallBanner.png",
+            width: "433",
+            height: "480",
+        },
     };
     // Array for Portfolios Component Props
     const portfolios = {
@@ -95,7 +93,7 @@ const page = () => {
                 <Hero content={hero} />
                 <Services />
                 <SmallBanner content={smallbanner} />
-                <Portfolios content={portfolios} />
+                {/* <Portfolios content={portfolios} /> */}
                 <Letstalk content={letstalk} />
                 <Reviews content={reviews} />
                 <Weare />

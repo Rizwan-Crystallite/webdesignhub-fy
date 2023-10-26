@@ -27,25 +27,23 @@ const Page = () => {
         subtitle: "Top Marketing Collateral Company",
         title: "Hire Marketing Collateral Company For Superior Engagement",
         desc: "Looking for experts to enhance your content and reach your audience effectively? At Web Design Hub, our team consists of top-notch content writers and marketers who can create engaging content to grow and retain your customer base with confidence.",
-        points: ["Measurable Results", "Enhanced Brand Image", "Save Time & Resources", "Comprehensive Solutions"],
-        banner,
-        bg: "bg-[url('../../public/marketing-collateral/hero/bg.png')] bg-cover bg-no-repeat bg-left-top",
-        isForm: true,
-        btnBg: "bg-[#223C5A]",
-        btnBorder: "border-[#223C5A]",
-        btnHover: "hover:bg-[#223C5A]"
+        img: {
+            src: "/marketing-collateral/hero/hero.png",
+            width: "489",
+            height: "642",
+        },
+        form: true
     };
     // Array for Small Banner Component Props
     const smallbanner = {
         page: "marketingCollateral",
         title: "Hire Us For Powerful Marketing Collateral Service",
         desc: "With the help of effective Marketing Collateral Services at Web Design Hub, start your digital adventure. ",
-        img: smallBannerImage,
-        bgColor: "__marketingCollateralHeroGradientBg",
-        btnBg: "bg-[#223C5A]",
-        btnBorder: "border-[#223C5A]",
-        btnHover: "hover:bg-[#223C5A]",
-        theme: "dark"
+        img: {
+            src: "/marketing-collateral/smallBanner.png",
+            width: "431",
+            height: "460",
+        },
     };
     // Array for Portfolios Component Props
     const portfolios = {
@@ -57,7 +55,7 @@ const Page = () => {
     // Array for Packages Component Props
     const packages = {
         subtitle: "Reasonable Prices",
-        title: "That Fits Your Budget",
+        title: "That <span class='text-red'>Fits</span> Your Budget",
         desc: "With affordable prices, we have exclusive digital art and design facilities, customized for your individual needs",
         key: 3,
         name: "Marketing Collateral"
@@ -95,12 +93,12 @@ const Page = () => {
                 <Hero content={hero} />
                 <Services />
                 <SmallBanner content={smallbanner} />
-                <Portfolios content={portfolios} />
+                {/* <Portfolios content={portfolios} /> */}
+                <Letstalk content={letstalk} />
                 <Packages content={packages} />
                 <Reviews content={reviews} />
                 <Weare />
                 <Contact />
-                <Letstalk content={letstalk} />
                 <Footer />
                 <Script id="general-schema" type="application/ld+json">
                     {`

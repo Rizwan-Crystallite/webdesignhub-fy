@@ -18,7 +18,7 @@ const PricingAndPackages = ({ content }) => {
     return (
         <ThemeProvider value={theme}>
             <section>
-                <div className=" py-10 md:py-20">
+                <div className=" pb-10 md:pb-20">
                     <div className="container">
                         <div className="text-center mb-10">
                             <span className="text-lg font-normal text-black">
@@ -36,7 +36,7 @@ const PricingAndPackages = ({ content }) => {
                             {dataPackages[content.key].packages.map((e, i) => {
                                 return <div key={i} className="bg-[#F2F2F2]">
                                     <div className="bg-red text-center py-5 shadow-lg">
-                                        <h4 className="font-megat font-normal text-white text-3xl">{e.name}</h4>
+                                        <h4 className="font-megat font-normal text-white text-xl">{e.name}</h4>
                                     </div>
                                     <p className="text-sm text-black font-normal my-5 leading-[24px] text-center">
                                         {e.note}

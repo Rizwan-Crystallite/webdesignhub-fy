@@ -27,25 +27,23 @@ const Page = () => {
         subtitle: "Best Illustration Designers",
         title: "5-Star Rated Top Illustration Design Company",
         desc: "When you hire Web Design Hub,  you gain access to the best character illustrators, and gaming artwork. We make custom character designs, immersive gaming illustrations, and any related creative illustrations. Our skill in illustration design combines unique qualities that make us a distinctive illustration company.",
-        points: ["Unique Artistry", "Time Efficiency", "Attention to Detail", "Original Art"],
-        isForm: true,
-        banner,
-        bg: "bg-[url('../../public/illustration-design/hero/bg.png')] bg-cover bg-no-repeat bg-left-top",
-        btnBg: "bg-[#A4637A]",
-        btnBorder: "border-[#A4637A]",
-        btnHover: "hover:bg-[#A4637A]"
+        img: {
+            src: "/illustration-design/hero/hero.png",
+            width: "638",
+            height: "707",
+        },
+        form: true
     };
     // Array for Small Banner Component Props
     const smallbanner = {
         page: "ecommerce",
         title: "Let us develop a responsive website to help you attract more visitors",
         desc: "Our professional web development team is at your service, dedicated to design and develop dynamic websites that urges visitors to take your desired action on the website.",
-        img: smallBannerImage,
-        bgColor: "bg-[#241C1B] lg:bg-[url('../../public/illustration-design/smallBannerClip.png')] bg-contain bg-no-repeat bg-right-top",
-        btnBg: "bg-[#A4637A]",
-        btnBorder: "border-[#A4637A]",
-        btnHover: "hover:bg-[#A4637A]",
-        theme: "dark"
+        img: {
+            src: "/illustration-design/smallBanner.png",
+            width: "424",
+            height: "480",
+        },
     };
     // Array for Portfolios Component Props
     const portfolios = {
@@ -57,7 +55,7 @@ const Page = () => {
     // Array for Packages Component Props
     const packages = {
         subtitle: "Reasonable Prices",
-        title: "That Fits Your Budget",
+        title: "That <span class='text-red'>Fits</span> Your Budget",
         desc: "With affordable prices, we have exclusive digital art and design facilities, customized for your individual needs",
         key: 1,
         name: "Illustration Design"
@@ -95,12 +93,12 @@ const Page = () => {
                 <Hero content={hero} />
                 <Services />
                 <SmallBanner content={smallbanner} />
-                <Portfolios content={portfolios} />
+                <Letstalk content={letstalk} />
+                {/* <Portfolios content={portfolios} /> */}
                 <Packages content={packages} />
                 <Reviews content={reviews} />
                 <Weare />
                 <Contact />
-                <Letstalk content={letstalk} />
                 <Footer />
                 <Script id="general-schema" type="application/ld+json">
                     {`

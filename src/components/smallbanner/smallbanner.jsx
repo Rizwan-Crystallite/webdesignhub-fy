@@ -33,7 +33,7 @@ const SmallBanner = ({ content }) => {
                         </div>
                     </div>
                     <div className="hidden lg:block lg:basis-[40%]">
-                        <Image src={img.src} alt="smallBanner" width={img.width} height={img.height} className={`${img.css}`} />
+                        <Image src={img.src} alt="smallBanner" width={img.width} height={img.height} className={`${img.css} m-auto block`} />
                     </div>
                 </div>
             </div>

@@ -2,33 +2,37 @@
 import Image from "next/image";
 import Button from "@/components/button/button";
 // Import Images
-import shoe from "media/ecommerce/services/shoe.png";
+import screens from "media/ecommerce/services/shoe.png";
+import CTA from "C/CTA";
 
 const Services = () => {
     return (
         <section>
-            <div className="bg-[#EBEBEB] py-10 lg:py-[200px]">
+            <div className="pb-[60px] md:pb-[100px]">
                 <div className="container">
-                    <div className="text-center mb-10">
-                        <span className="text-base font-normal text-[#00B4FF]">Ecommerce Website Solutions</span>
-                        <h2 className="font-megat font-normal text-3xl sm:text-4xl lg:text-5xl text-black mb-2">
+                    <div className="lg:w-2/3 mb-10">
+                        <span className="text-base font-normal text-red">Ecommerce Website Solutions</span>
+                        <h2 className="text-[20px] sm:text-[25px] xl:text-[35px] font-megat font-extrabold leading-tight text-black mb-2">
                             Ecommerce Web Development Experts
                         </h2>
-                        <p className="text-base text-black font-normal lg:w-[70%] m-auto">Our team focuses on creating custom ecommerce solutions to make your online presence better, increase sales, and improve shopping experience on your website.</p>
+                        <p className="text-base text-black font-normal">Our team focuses on creating custom ecommerce solutions to make your online presence better, increase sales, and improve shopping experience on your website.</p>
                     </div>
-                    <Image src={shoe} alt="shoe" className="block m-auto" />
-                    <div className="flex items-center gap-3 justify-center mt-10 relative z-10">
-                        <Button text="Start Live Chat"
-                            icon={true}
-                            color="bg-[#005368] text-white"
-                            hover="hover:bg-[#000000]"
-                            link="javascript:$zopim.livechat.window.show();" />
-                        <Button text="(855) 888-8399"
-                            color="bg-transparent text-[#202020]"
-                            border="border-2 border-[#005368]"
-                            hover="hover:bg-[#005368] hover:text-white"
-                            link="tel:(855)888-8399" />
+                    <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
+                        <CTA
+                            text="Start Live Chat"
+                            href="javascript:$zopim.livechat.window.show();"
+                            bg="bg-black"
+                            icon="/icons/chat.svg"
+                            css="hover:bg-light-yellow"
+                        />
+                        <CTA
+                            text="(855) 888-8399"
+                            href="tel:(855)888-8399"
+                            bg="bg-red"
+                            css="hover:bg-light-yellow"
+                        />
                     </div>
+                    <Image src={screens} alt="screens" className="block m-auto mt-10" />
                 </div>
             </div>
         </section>

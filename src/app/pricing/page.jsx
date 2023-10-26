@@ -16,11 +16,13 @@ const Page = () => {
         subtitle: "Web Design & Development",
         title: "Comprehensive Design Solutions at Affordable Prices",
         desc: "Web Design Hub: Your Destination for High-Quality Design and Development Services, Crafted to Fit Your Budget.",
-        bg: "__digitalMarketingHeroGradientBg",
-        banner,
-        btnBg: "bg-[#8A6EA5]",
-        btnBorder: "border-[#8A6EA5]",
-        btnHover: "hover:bg-[#8A6EA5]"
+        img: {
+            src: "/home/new/hero/hero.png",
+            width: "508",
+            height: "818",
+            css: "mb-[-100px]"
+        },
+        form: false
     };
     // Array for Letstalk Component Props
     const letstalk = {

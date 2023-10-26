@@ -3,7 +3,6 @@ import Hero from "@/components/hero/hero";
 import Approach from "@/components/home/Services/Services";
 import SmallBanner from "@/components/smallbanner/smallbanner";
 import Services from "@/components/services/services";
-import Portfolios from "@/components/portfolios/portfolios";
 import Reviews from "@/components/reviews/reviews";
 import Weare from "@/components/weare/weare";
 import Contact from "@/components/contact/contact";
@@ -11,18 +10,6 @@ import Letstalk from "@/components/letstalk/letstalk";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Script from "next/script";
-// Import Images
-import banner from "media/home/hero/chair.png";
-import bannerIconOne from "media/home/hero/iconOne.png";
-import bannerIconTwo from "media/home/hero/iconTwo.png";
-import bannerIconThree from "media/home/hero/iconThree.png";
-import smallBannerImage from "media/home/smallBanner.png";
-import serviceTabOne from "media/home/services/serviceTabOne.png";
-import portfolioOne from "media/home/portfolios/one.png";
-import portfolioTwo from "media/home/portfolios/two.png";
-import portfolioThree from "media/home/portfolios/three.png";
-import portfolioFour from "media/home/portfolios/four.png";
-import portfolioFive from "media/home/portfolios/five.png";
 
 const Page = () => {
     // Array for Hero Component Props
@@ -110,12 +97,6 @@ const Page = () => {
             }
         ]
     };
-    // Array for Portfolios Component Props
-    const portfolios = {
-        title: "Explore Our Design Portfolio",
-        desc: "At Web Design Hub, our designers are committed  to excellence in every aspect of \n design, from logos to web, mobile apps, and illustrations.",
-        images: [portfolioOne, portfolioTwo, portfolioThree, portfolioFour, portfolioFive]
-    };
     // Array for Letstalk Component Props
     const letstalk = {
         title: "Design Consultation",
@@ -130,7 +111,6 @@ const Page = () => {
                 <SmallBanner content={smallbanner} />
                 <Services content={services} />
                 <Letstalk content={letstalk} />
-                {/* <Portfolios content={portfolios} /> */}
                 <Reviews />
                 <Weare />
                 <Contact />

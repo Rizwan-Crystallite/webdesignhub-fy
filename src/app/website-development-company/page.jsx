@@ -26,25 +26,23 @@ const Page = () => {
         subtitle: "Website Design & Development",
         title: "100% Custom Websites By Top Website Development Company",
         desc: "Tired of generic websites that don't make an impact? Experience the difference with our top design and website development company where we uniquely represent your brand and drive results.",
-        points: ["Optimized Performance", "Responsive Design", "Brand Consistency", "Search Engine Visibility"],
-        bg: "bg-[#0f1013]",
-        video: "videos/websiteDevelopment.mp4",
-        isForm: true,
-        btnBg: "bg-[#283C3C]",
-        btnBorder: "border-[#283C3C]",
-        btnHover: "hover:bg-[#283C3C]"
+        img: {
+            src: "/website-development/hero/hero.png",
+            width: "395",
+            height: "805",
+        },
+        form: true
     };
     // Array for Small Banner Component Props
     const smallbanner = {
         page: "websiteDevelopment",
         title: "Let us develop a responsive website to help you attract more visitors",
         desc: "Our professional web development team is at your service, dedicated to design and develop dynamic websites that urges visitors to take your desired action on the website.",
-        img: smallBannerImage,
-        bgColor: "bg-[#0f1013]",
-        btnBg: "bg-[#283C3C]",
-        btnBorder: "border-[#283C3C]",
-        btnHover: "hover:bg-[#283C3C]",
-        theme: "dark"
+        img: {
+            src: "/website-development/smallBanner.png",
+            width: "623",
+            height: "466",
+        },
     };
     // Array for Portfolios Component Props
     const portfolios = {
@@ -94,12 +92,12 @@ const Page = () => {
                 <Hero content={hero} />
                 <Services />
                 <SmallBanner content={smallbanner} />
-                <Portfolios content={portfolios} />
+                <Letstalk content={letstalk} />
+                {/* <Portfolios content={portfolios} /> */}
                 <Packages content={packages} />
                 <Reviews content={reviews} />
                 <Weare />
                 <Contact />
-                <Letstalk content={letstalk} />
                 <Footer />
                 <Script id="general-schema" type="application/ld+json">
                     {`

@@ -26,25 +26,23 @@ const Page = () => {
         subtitle: "Experience Motion Magic With",
         title: "Top Motion Graphic Design Company",
         desc: "Our creative motion graphics designers, with a strong combination of skills and innovative equipment create attractive, profitable 3D animations that will enrich your business with success.",
-        points: ["Custom Animation", "Visual Effects (VFX)", "Character Animation", "Logo Animation"],
-        bg: "bg-[#0B2218]",
-        video: "videos/motionGraphics.mp4",
-        isForm: true,
-        btnBg: "bg-[#195A47]",
-        btnBorder: "border-[#195A47]",
-        btnHover: "hover:bg-[#195A47]"
+        img: {
+            src: "/motion-graphics/hero/hero.png",
+            width: "486",
+            height: "750",
+        },
+        form: true
     };
     // Array for Small Banner Component Props
     const smallbanner = {
         page: "ecommerce",
         title: "power of Visual by our Motion Graphics Designers.",
         desc: "We use animation, 3D modeling, and fascinating effects to give your stories a twist of practical life. Our work captivates the audience by enduring narratives.",
-        img: smallBannerImage,
-        bgColor: "bg-[#0B2218]",
-        btnBg: "bg-[#195A47]",
-        btnBorder: "border-[#195A47]",
-        btnHover: "hover:bg-[#195A47]",
-        theme: "dark"
+        img: {
+            src: "/motion-graphics/smallBanner.png",
+            width: "380",
+            height: "420",
+        },
     };
     // Array for Portfolios Component Props
     const portfolios = {
@@ -56,7 +54,7 @@ const Page = () => {
     // Array for Packages Component Props
     const packages = {
         subtitle: "Reasonable Prices",
-        title: "That Fits Your Budget",
+        title: "That <span class='text-red'>Fits</span> Your Budget",
         desc: "With affordable prices, we have exclusive digital art and design facilities, customized for your individual needs",
         key: 4,
         name: "Motion Graphics"
@@ -94,12 +92,12 @@ const Page = () => {
                 <Hero content={hero} />
                 <Services />
                 <SmallBanner content={smallbanner} />
-                <Portfolios content={portfolios} />
+                <Letstalk content={letstalk} />
+                {/* <Portfolios content={portfolios} /> */}
                 <Packages content={packages} />
                 <Reviews content={reviews} />
                 <Weare />
                 <Contact />
-                <Letstalk content={letstalk} />
                 <Footer />
                 <Script id="general-schema" type="application/ld+json">
                     {`
