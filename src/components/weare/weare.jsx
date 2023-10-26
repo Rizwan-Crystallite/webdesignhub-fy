@@ -21,13 +21,13 @@ const Weare = () => {
                             <p className="text-base text-black text-center font-normal mb-10 lg:mb-20">Our commitment to delivering innovative solutions and consistently surpassing expectations <br className="hidden xl:block" /> make Web Design Hub an exclusive choice</p>
                             <div className="flex lg:divide-x lg:divide-red mb-10 lg:mb-20 gap-5 flex-wrap lg:flex-nowrap justify-center">
                                 <div className="basis-[46%] md:basis-[30%] lg:basis-1/5">
-                                    <Image src={one} alt={one} className="block m-auto mb-3" />
+                                    <Image src={one} alt={one} className="block m-auto mb-3" proprity="true" quality="85" />
                                     <h3 className="text-basis md:text-lg xl:text-xl font-light font-sans text-black text-center">
                                         Creative Excellence
                                     </h3>
                                 </div>
                                 <div className="basis-[46%] md:basis-[30%] lg:basis-1/5">
-                                    <Image src={two} alt={two} className="block m-auto mb-3" />
+                                    <Image src={two} alt={two} className="block m-auto mb-3" proprity="true" quality="85" />
                                     <h3 className="text-basis md:text-lg xl:text-xl font-light font-sans text-black text-center">
                                         Customized Solutions
                                     </h3>
@@ -39,13 +39,13 @@ const Weare = () => {
                                     </h3>
                                 </div>
                                 <div className="basis-[46%] md:basis-[30%] lg:basis-1/5 border-l-5">
-                                    <Image src={four} alt={four} className="block m-auto mb-3" />
+                                    <Image src={four} alt={four} className="block m-auto mb-3" proprity="true" quality="85" />
                                     <h3 className="text-basis md:text-lg xl:text-xl font-light font-sans text-black text-center">
                                         On-Time Delivery
                                     </h3>
                                 </div>
                                 <div className="basis-[46%] md:basis-[30%] lg:basis-1/5">
-                                    <Image src={five} alt={five} className="block m-auto mb-3" />
+                                    <Image src={five} alt={five} className="block m-auto mb-3" proprity="true" quality="85" />
                                     <h3 className="text-basis md:text-lg xl:text-xl font-light font-sans text-black text-center">
                                         Affordable Pricing.
                                     </h3>

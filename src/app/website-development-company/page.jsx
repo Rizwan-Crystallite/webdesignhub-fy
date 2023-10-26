@@ -3,7 +3,6 @@ import Hero from "@/components/hero/hero";
 import Services from "@/components/website-development/services/services";
 import SmallBanner from "@/components/smallbanner/smallbanner";
 import Packages from "@/components/packages/packages";
-import Portfolios from "@/components/portfolios/portfolios";
 import Reviews from "@/components/reviews/reviews";
 import Weare from "@/components/weare/weare";
 import Contact from "@/components/contact/contact";
@@ -11,13 +10,6 @@ import Letstalk from "@/components/letstalk/letstalk";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Script from "next/script";
-// Import Images
-import smallBannerImage from "media/website-development/smallBanner.png";
-import portfolioOne from "media/logo-design/portfolios/one.png";
-import portfolioTwo from "media/logo-design/portfolios/two.png";
-import portfolioThree from "media/logo-design/portfolios/three.png";
-import portfolioFour from "media/logo-design/portfolios/four.png";
-import portfolioFive from "media/logo-design/portfolios/five.png";
 
 const Page = () => {
     // Array for Hero Component Props
@@ -43,13 +35,6 @@ const Page = () => {
             width: "623",
             height: "466",
         },
-    };
-    // Array for Portfolios Component Props
-    const portfolios = {
-        title: "Reliability Guaranteed At Our Web Development Company",
-        desc: "Take a look at our web design and development projects. They're like examples of our work, showing how we bring ideas to life on the internet. ",
-        images: [portfolioOne, portfolioTwo, portfolioThree, portfolioFour, portfolioFive],
-        theme: "light"
     };
     // Array for Packages Component Props
     const packages = {
@@ -93,7 +78,6 @@ const Page = () => {
                 <Services />
                 <SmallBanner content={smallbanner} />
                 <Letstalk content={letstalk} />
-                {/* <Portfolios content={portfolios} /> */}
                 <Packages content={packages} />
                 <Reviews content={reviews} />
                 <Weare />

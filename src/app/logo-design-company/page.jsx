@@ -2,28 +2,14 @@
 import Hero from "@/components/hero/hero";
 import SmallBanner from "@/components/smallbanner/smallbanner";
 import Services from "@/components/services/services";
-import Portfolios from "@/components/portfolios/portfolios";
 import Reviews from "@/components/reviews/reviews";
 import Weare from "@/components/weare/weare";
 import Contact from "@/components/contact/contact";
 import Letstalk from "@/components/letstalk/letstalk";
 import Packages from "@/components/packages/packages";
-import Combo from "@/components/logo-design/combo/combo";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Script from "next/script";
-// Import Images
-import banner from "media/logo-design/hero/screen.png";
-import bannerIconOne from "media/logo-design/hero/iconOne.png";
-import bannerIconTwo from "media/logo-design/hero/iconTwo.png";
-import bannerIconThree from "media/logo-design/hero/iconThree.png";
-import smallBannerImage from "media/logo-design/smallBanner.png";
-import serviceTabOne from "media/logo-design/services/serviceTabOne.png";
-import portfolioOne from "media/logo-design/portfolios/one.png";
-import portfolioTwo from "media/logo-design/portfolios/two.png";
-import portfolioThree from "media/logo-design/portfolios/three.png";
-import portfolioFour from "media/logo-design/portfolios/four.png";
-import portfolioFive from "media/logo-design/portfolios/five.png";
 
 const Page = () => {
     // Array for Hero Component Props
@@ -44,7 +30,6 @@ const Page = () => {
         page: "logoDesign",
         title: "Let us develop a responsive website to help you attract more visitors",
         desc: "Our professional web development team is at your service, dedicated to design and develop dynamic websites that urges visitors to take your desired action on the website.",
-        img: smallBannerImage,
         img: {
             src: "/logo-design/smallBanner.png",
             width: "565",
@@ -146,13 +131,6 @@ const Page = () => {
             }
         ]
     };
-    // Array for Portfolios Component Props
-    const portfolios = {
-        title: "A Glimpse into Our Corporate Logo Designs",
-        desc: "At Web Design Hub, we are passionately devoted to achieving excellence across the spectrum of design \n including creative logo design, logo redesign, web design, and many more.",
-        images: [portfolioOne, portfolioTwo, portfolioThree, portfolioFour, portfolioFive],
-        theme: "light"
-    };
     // Array for Packages Component Props
     const packages = {
         subtitle: "Logo Design Packages",
@@ -196,9 +174,7 @@ const Page = () => {
                 <SmallBanner content={smallbanner} />
                 <Services content={services} />
                 <Letstalk content={letstalk} />
-                {/* <Portfolios content={portfolios} /> */}
                 <Packages content={packages} />
-                {/* <Combo /> */}
                 <Reviews content={reviews} />
                 <Weare />
                 <Contact />

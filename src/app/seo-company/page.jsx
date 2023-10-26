@@ -10,8 +10,6 @@ import Contact from "@/components/contact/contact";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Script from "next/script";
-// Import Images
-import smallBannerImage from "media/seo-services/smallBanner.png";
 
 const Page = () => {
     // Array for Hero Component Props

@@ -2,7 +2,6 @@
 import Hero from "@/components/hero/hero";
 import Services from "@/components/motion-graphics/services/services";
 import SmallBanner from "@/components/smallbanner/smallbanner";
-import Portfolios from "@/components/portfolios/portfolios";
 import Letstalk from "@/components/letstalk/letstalk";
 import Reviews from "@/components/reviews/reviews";
 import Weare from "@/components/weare/weare";
@@ -11,13 +10,6 @@ import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Packages from "@/components/packages/packages";
 import Script from "next/script";
-// Import Images
-import smallBannerImage from "media/motion-graphics/smallBanner.png";
-import portfolioOne from "media/motion-graphics/portfolios/one.png";
-import portfolioTwo from "media/motion-graphics/portfolios/two.png";
-import portfolioThree from "media/motion-graphics/portfolios/three.png";
-import portfolioFour from "media/motion-graphics/portfolios/four.png";
-import portfolioFive from "media/motion-graphics/portfolios/five.png";
 
 const Page = () => {
     // Array for Hero Component Props
@@ -43,13 +35,6 @@ const Page = () => {
             width: "380",
             height: "420",
         },
-    };
-    // Array for Portfolios Component Props
-    const portfolios = {
-        title: "We Turn Visions into Animation",
-        desc: "Channeling your imagination with our expert motion graphics team,we turn your ideas into \n mesmerizing animations that captivate and convert.",
-        images: [portfolioOne, portfolioTwo, portfolioThree, portfolioFour, portfolioFive],
-        theme: "light"
     };
     // Array for Packages Component Props
     const packages = {
@@ -93,7 +78,6 @@ const Page = () => {
                 <Services />
                 <SmallBanner content={smallbanner} />
                 <Letstalk content={letstalk} />
-                {/* <Portfolios content={portfolios} /> */}
                 <Packages content={packages} />
                 <Reviews content={reviews} />
                 <Weare />

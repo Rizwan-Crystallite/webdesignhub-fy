@@ -15,7 +15,7 @@ const Page = () => {
         <main>
             <Header />
             <section>
-                <div className="__homeHeroGradientBg h-[250px] flex items-center text-center">
+                <div className="bg-[#cab99a] h-[250px] flex items-center text-center">
                     <div className="container">
                         <h1 className="text-4xl sm:text-5xl xl:text-5xl 2xl:text-6xl font-megat text-white font-normal leading-none mt-10">Terms & Conditions
                         </h1>
@@ -603,8 +603,6 @@ const Page = () => {
                     </div>
                 </div>
             </section>
-            <Letstalk content={letstalk} />
-            <Reviews />
             <Contact />
             <Footer />
         </main>

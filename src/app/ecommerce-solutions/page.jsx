@@ -2,7 +2,6 @@
 import Hero from "@/components/hero/hero";
 import Services from "@/components/ecommerce/services/services";
 import SmallBanner from "@/components/smallbanner/smallbanner";
-import Portfolios from "@/components/portfolios/portfolios";
 import Packages from "@/components/packages/packages";
 import Reviews from "@/components/reviews/reviews";
 import Letstalk from "@/components/letstalk/letstalk";
@@ -10,13 +9,6 @@ import Weare from "@/components/weare/weare";
 import Contact from "@/components/contact/contact";
 import Script from "next/script";
 // Import Images
-import banner from "media/ecommerce/hero/store.png";
-import smallBannerImage from "media/ecommerce/smallBanner.png";
-import portfolioOne from "media/ecommerce/portfolios/one.png";
-import portfolioTwo from "media/ecommerce/portfolios/two.png";
-import portfolioThree from "media/ecommerce/portfolios/three.png";
-import portfolioFour from "media/ecommerce/portfolios/four.png";
-import portfolioFive from "media/ecommerce/portfolios/five.png";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 
@@ -44,13 +36,6 @@ const Page = () => {
             width: "420",
             height: "412",
         },
-    };
-    // Array for Portfolios Component Props
-    const portfolios = {
-        title: "Crafting Digital Storefront Dreams",
-        desc: "See how we skillfully create digital stores that grab attention, turn visitors into customers. and \n also drive substantial sales growth.",
-        images: [portfolioOne, portfolioTwo, portfolioThree, portfolioFour, portfolioFive],
-        theme: "light"
     };
     // Array for Packages Component Props
     const packages = {
@@ -94,7 +79,6 @@ const Page = () => {
                 <Services />
                 <SmallBanner content={smallbanner} />
                 <Letstalk content={letstalk} />
-                {/* <Portfolios content={portfolios} /> */}
                 <Packages content={packages} />
                 <Reviews content={reviews} />
                 <Weare />

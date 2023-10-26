@@ -3,32 +3,36 @@ import Image from "next/image";
 import Button from "@/components/button/button";
 // Import Images
 import peoples from "media/about-us/services/peoples.png";
+import CTA from "C/CTA";
 
 const Services = () => {
     return (
         <section>
-            <div className="bg-[#EBEBEB] py-10 lg:pt-20 pb-28">
+            <div className="pb-[60px] md:pb-[100px]">
                 <div className="container">
-                    <div className="text-center mb-10">
-                        <span className="text-base font-normal text-[#00B4FF]">Designing Dreams</span>
-                        <h2 className="font-megat font-normal text-3xl sm:text-4xl lg:text-5xl text-black mb-2">
+                    <div className="lg:w-2/3 mb-10">
+                        <span className="text-base font-normal text-red">Designing Dreams</span>
+                        <h2 className="text-[20px] sm:text-[25px] xl:text-[35px] font-megat font-extrabold leading-tight text-black mb-2">
                             Redefining Web Design & Development Standards
                         </h2>
-                        <p className="text-base text-black font-normal lg:w-[70%] m-auto">At Web Design Hub, our expertise goes beyond web design. We excel in crafting captivating custom logos, illustrations, and dynamic motion graphics, enhancing your brand's visual appeal and impact.</p>
+                        <p className="text-base text-black font-normal">At Web Design Hub, our expertise goes beyond web design. We excel in crafting captivating custom logos, illustrations, and dynamic motion graphics, enhancing your brand's visual appeal and impact.</p>
                     </div>
-                    <Image src={peoples} alt="peoples" className="block m-auto" />
-                    <div className="flex items-center gap-3 justify-center mt-10 relative z-10">
-                        <Button text="Start Live Chat"
-                            icon={true}
-                            color="bg-[#7337BB] text-white"
-                            hover="hover:bg-[#000000]"
-                            link="javascript:$zopim.livechat.window.show();" />
-                        <Button text="(855) 888-8399"
-                            color="bg-transparent text-[#202020]"
-                            border="border-2 border-[#7337BB]"
-                            hover="hover:bg-[#7337BB] hover:text-white"
-                            link="tel:(855)888-8399" />
+                    <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
+                        <CTA
+                            text="Start Live Chat"
+                            href="javascript:$zopim.livechat.window.show();"
+                            bg="bg-black"
+                            icon="/icons/chat.svg"
+                            css="hover:bg-light-yellow"
+                        />
+                        <CTA
+                            text="(855) 888-8399"
+                            href="tel:(855)888-8399"
+                            bg="bg-red"
+                            css="hover:bg-light-yellow"
+                        />
                     </div>
+                    <Image src={peoples} alt="screens" className="block m-auto mt-10" />
                 </div>
             </div>
         </section>

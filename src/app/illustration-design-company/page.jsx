@@ -2,7 +2,6 @@
 import Hero from "@/components/hero/hero";
 import Services from "@/components/illustration-design/services/services";
 import SmallBanner from "@/components/smallbanner/smallbanner";
-import Portfolios from "@/components/portfolios/portfolios";
 import Letstalk from "@/components/letstalk/letstalk";
 import Reviews from "@/components/reviews/reviews";
 import Weare from "@/components/weare/weare";
@@ -11,14 +10,6 @@ import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Packages from "@/components/packages/packages";
 import Script from "next/script";
-// Import Images
-import banner from "media/illustration-design/hero/man.png";
-import smallBannerImage from "media/illustration-design/smallBanner.png";
-import portfolioOne from "media/illustration-design/portfolios/one.png";
-import portfolioTwo from "media/illustration-design/portfolios/two.png";
-import portfolioThree from "media/illustration-design/portfolios/three.png";
-import portfolioFour from "media/illustration-design/portfolios/four.png";
-import portfolioFive from "media/illustration-design/portfolios/five.png";
 
 const Page = () => {
     // Array for Hero Component Props
@@ -44,13 +35,6 @@ const Page = () => {
             width: "424",
             height: "480",
         },
-    };
-    // Array for Portfolios Component Props
-    const portfolios = {
-        title: "Our Illustration Agency’s Artwork Creation",
-        desc: "Our illustration artists work closely with clients to capture a design's personality, conveying emotions, and brand identity. \n We create character designs with depth and meaning.",
-        images: [portfolioOne, portfolioTwo, portfolioThree, portfolioFour, portfolioFive],
-        theme: "light"
     };
     // Array for Packages Component Props
     const packages = {
@@ -94,7 +78,6 @@ const Page = () => {
                 <Services />
                 <SmallBanner content={smallbanner} />
                 <Letstalk content={letstalk} />
-                {/* <Portfolios content={portfolios} /> */}
                 <Packages content={packages} />
                 <Reviews content={reviews} />
                 <Weare />

@@ -1,6 +1,5 @@
 // Import Components
 import Image from "next/image";
-import Button from "@/components/button/button";
 // Import Images
 import screens from "media/ecommerce/services/shoe.png";
 import CTA from "C/CTA";

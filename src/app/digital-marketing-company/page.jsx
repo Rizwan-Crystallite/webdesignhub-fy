@@ -2,7 +2,6 @@
 import Hero from "@/components/hero/hero";
 import Services from "@/components/digital-marketing/services/services";
 import SmallBanner from "@/components/smallbanner/smallbanner";
-import Steps from "@/components/digital-marketing/steps/steps";
 import Reviews from "@/components/reviews/reviews";
 import Weare from "@/components/weare/weare";
 import Contact from "@/components/contact/contact";
@@ -10,9 +9,6 @@ import Letstalk from "@/components/letstalk/letstalk";
 import Packages from "@/components/packages/packages";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
-// Import Images
-import banner from "media/digital-marketing/hero/hand.png";
-import smallBannerImage from "media/digital-marketing/smallBanner.png";
 import Script from "next/script";
 
 const Page = () => {
@@ -88,7 +84,6 @@ const Page = () => {
                 <Services />
                 <SmallBanner content={smallbanner} />
                 <Letstalk content={letstalk} />
-                {/* <Steps /> */}
                 <Packages content={packages} />
                 <Reviews content={reviews} />
                 <Weare />

@@ -6,8 +6,6 @@ import PricingAndPackages from "@/components/pricingAndPackages/pricingAndPackag
 import Footer from "@/components/footer/footer";
 import Header from "@/components/header/header";
 import Reviews from "@/components/reviews/reviews";
-// Import Images
-import banner from "media/about-us/hero/banner.png";
 
 const Page = () => {
     // Array for Hero Component Props

@@ -2,7 +2,6 @@
 import Hero from "@/components/hero/hero";
 import Services from "@/components/marketing-collateral/services/services";
 import SmallBanner from "@/components/smallbanner/smallbanner";
-import Portfolios from "@/components/portfolios/portfolios";
 import Letstalk from "@/components/letstalk/letstalk";
 import Reviews from "@/components/reviews/reviews";
 import Weare from "@/components/weare/weare";
@@ -11,14 +10,6 @@ import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Packages from "@/components/packages/packages";
 import Script from "next/script";
-// Import Images
-import banner from "media/marketing-collateral/hero/stationary.png";
-import smallBannerImage from "media/marketing-collateral/smallBanner.png";
-import portfolioOne from "media/marketing-collateral/portfolios/one.png";
-import portfolioTwo from "media/marketing-collateral/portfolios/two.png";
-import portfolioThree from "media/marketing-collateral/portfolios/three.png";
-import portfolioFour from "media/marketing-collateral/portfolios/four.png";
-import portfolioFive from "media/marketing-collateral/portfolios/five.png";
 
 const Page = () => {
     // Array for Hero Component Props
@@ -44,13 +35,6 @@ const Page = () => {
             width: "431",
             height: "460",
         },
-    };
-    // Array for Portfolios Component Props
-    const portfolios = {
-        title: "Boosting Brands with Creative Hands",
-        desc: "We empower brands to reach new heights. Our marketing experts design custom marketing collateral \n solutions that captivates your target and boosts conversions. ",
-        images: [portfolioOne, portfolioTwo, portfolioThree, portfolioFour, portfolioFive],
-        theme: "light"
     };
     // Array for Packages Component Props
     const packages = {
@@ -93,7 +77,6 @@ const Page = () => {
                 <Hero content={hero} />
                 <Services />
                 <SmallBanner content={smallbanner} />
-                {/* <Portfolios content={portfolios} /> */}
                 <Letstalk content={letstalk} />
                 <Packages content={packages} />
                 <Reviews content={reviews} />

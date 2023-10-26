@@ -4,8 +4,6 @@ import Letstalk from "@/components/letstalk/letstalk";
 import Contact from "@/components/contact/contact";
 import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
-// Import Images
-import banner from "media/about-us/hero/banner.png";
 
 const Page = () => {
     // Array for Hero Component Props
@@ -14,12 +12,12 @@ const Page = () => {
         subtitle: "Top Web Designers",
         title: "Let's Create Your Dream Website Together",
         desc: "At Web Design Hub, we drive your business to success. From logo and website design to SEO and motion graphics, we offer top-quality services at affordable prices.",
-        bg: "__ecommerceHeroGradientBg",
-        banner,
-        points: ["Website Design", "Website Development", "Custom Logo Design", "Digital Marketing"],
-        btnBg: "bg-[#005368]",
-        btnBorder: "border-[#005368]",
-        btnHover: "hover:bg-[#005368]"
+        img: {
+            src: "/home/new/hero/hero.png",
+            width: "508",
+            height: "818",
+        },
+        form: false
     };
     // Array for Letstalk Component Props
     const letstalk = {

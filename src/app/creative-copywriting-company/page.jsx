@@ -10,9 +10,6 @@ import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Packages from "@/components/packages/packages";
 import Script from "next/script";
-// Import Images
-import banner from "media/creative-copywriting/hero/deskGirl.png";
-import smallBannerImage from "media/creative-copywriting/smallBanner.png";
 
 const Page = () => {
     // Array for Hero Component Props
