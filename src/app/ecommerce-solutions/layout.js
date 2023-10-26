@@ -13,16 +13,7 @@ export const metadata = {
     // Canonical
     alternates: {
         canonical: 'https://www.webdesignhub.co/ecommerce-solutions',
-    },
-    // OG Metas
-    openGraph: {
-        title: 'Expert Ecommerce Website Design Company | WebDesignHub',
-        description: 'Crafting top-tier ecommerce website design at WebDesignHub. Turn visitors into buyers with a responsive, user-friendly online store. Start your success today!',
-        url: 'https://www.webdesignhub.co/ecommerce-solutions',
-        siteName: 'Web Design Hub',
-        locale: 'en_US',
-        type: 'website',
-    },
+    }
 }
 
 export default function RootLayout({ children }) {

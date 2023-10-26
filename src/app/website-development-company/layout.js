@@ -14,15 +14,6 @@ export const metadata = {
     alternates: {
         canonical: 'https://www.webdesignhub.co/website-development-company',
     },
-    // OG Metas
-    openGraph: {
-        title: 'Top Website Development Company | WebDesignHub',
-        description: 'WebDesignHub: Your trusted website development company. Craft dynamic, responsive sites tailored to your needs. Unlock your digital potential. Reach out now!',
-        url: 'https://www.webdesignhub.co/website-development-company',
-        siteName: 'Web Design Hub',
-        locale: 'en_US',
-        type: 'website',
-    },
 }
 
 export default function RootLayout({ children }) {

@@ -221,7 +221,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <Sidebuttons />
+            {/* <Sidebuttons /> */}
         </footer>
     );
 }

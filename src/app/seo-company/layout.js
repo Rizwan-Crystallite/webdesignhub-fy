@@ -13,16 +13,7 @@ export const metadata = {
     // Canonical
     alternates: {
         canonical: 'https://www.webdesignhub.co/seo-company',
-    },
-    // OG Metas
-    openGraph: {
-        title: 'Top SEO Company Services | WebDesignHub',
-        description: 'WebDesignHub stands as a leading SEO company, optimizing your digital presence for maximum visibility. Drive organic traffic and achieve top search rankings. Contact us!',
-        url: 'https://www.webdesignhub.co/seo-company',
-        siteName: 'Web Design Hub',
-        locale: 'en_US',
-        type: 'website',
-    },
+    }
 }
 
 export default function RootLayout({ children }) {

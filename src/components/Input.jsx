@@ -26,6 +26,7 @@ const Input = ({
                 {label}
             </label>}
             <input
+                autoComplete="off"
                 type={type}
                 name={name}
                 value={value}

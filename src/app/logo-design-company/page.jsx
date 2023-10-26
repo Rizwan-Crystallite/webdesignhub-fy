@@ -32,13 +32,12 @@ const Page = () => {
         subtitle: "Custom Logo Designs",
         title: "Logo Design Company That's Designing Brand’s Signature",
         desc: "At Web Design Hub, we employ the best logo designers and illustrators to make creative logos for big companies and small businesses. As an affordable logo design company, we promise to create a logo that delivers impressive outcomes for your brand.",
-        points: ["Visual Identity", "Brand Recognition", "Increased Credibility", "Brand Identification"],
-        banner,
-        icons: [bannerIconOne, bannerIconTwo, bannerIconThree],
-        bg: "__logoDesignHeroGradientBg",
-        btnBg: "bg-[#7598F2]",
-        btnBorder: "border-[#7598F2]",
-        btnHover: "hover:bg-[#7598F2]"
+        img: {
+            src: "/logo-design/hero/hero.png",
+            width: "508",
+            height: "818",
+        },
+        form: true
     };
     // Array for Small Banner Component Props
     const smallbanner = {
@@ -46,11 +45,11 @@ const Page = () => {
         title: "Let us develop a responsive website to help you attract more visitors",
         desc: "Our professional web development team is at your service, dedicated to design and develop dynamic websites that urges visitors to take your desired action on the website.",
         img: smallBannerImage,
-        bgColor: "__logoDesignHeroGradientBg",
-        btnBg: "bg-[#7598F2]",
-        btnBorder: "border-[#7598F2]",
-        btnHover: "hover:bg-[#7598F2]",
-        theme: "dark"
+        img: {
+            src: "/logo-design/smallBanner.png",
+            width: "565",
+            height: "428",
+        },
     };
     // Array for Services Component Props
     const services = {
@@ -157,7 +156,7 @@ const Page = () => {
     // Array for Packages Component Props
     const packages = {
         subtitle: "Logo Design Packages",
-        title: "Gain the Upper Hand with Our Creative Logo Designs",
+        title: "Gain the Upper Hand with <span class='text-red'>Our Creative Logo</span> Designs",
         desc: "Our top logo design service packages are thoughtfully customized to match your brand's voice and budget, giving you a competitive edge in the market.",
         key: 0,
         name: "logo-design"
@@ -194,15 +193,15 @@ const Page = () => {
             <main>
                 <Header />
                 <Hero content={hero} />
-                <Services content={services} />
                 <SmallBanner content={smallbanner} />
-                <Portfolios content={portfolios} />
+                <Services content={services} />
+                {/* <Portfolios content={portfolios} /> */}
                 <Packages content={packages} />
-                <Combo />
+                {/* <Combo /> */}
                 <Reviews content={reviews} />
+                <Letstalk content={letstalk} />
                 <Weare />
                 <Contact />
-                <Letstalk content={letstalk} />
                 <Footer />
                 <Script id="general-schema" type="application/ld+json">
                     {`

@@ -1,17 +1,15 @@
 // Next Components
 import Image from "next/image";
-// Images
-import HomeSmallBanner from "media/home/new/smallBanner.png";
 // Components
 import CTA from "C/CTA";
 
 const SmallBanner = ({ content }) => {
-    const { title, desc } = content;
+    const { title, desc, img } = content;
     return (
         <section>
             <div className="bg-gray-200">
                 <div className="container relative py-[50px] lg:py-0 lg:h-[350px] flex items-center">
-                    <div className="lg:w-[58%] xl:w-[62%]">
+                    <div className="lg:basis-[60%]">
                         <h2 className="text-[20px] sm:text-[25px] xl:text-[30px] font-megat font-extrabold leading-tight text-black mb-3">
                             {title}
                         </h2>
@@ -33,7 +31,9 @@ const SmallBanner = ({ content }) => {
                                 css="hover:bg-light-yellow"
                             />
                         </div>
-                        <Image src={HomeSmallBanner} alt="smallBanner" className="absolute right-0 bottom-0 hidden lg:block" />
+                    </div>
+                    <div className="hidden lg:block lg:basis-[40%]">
+                        <Image src={img.src} alt="smallBanner" width={img.width} height={img.height} className={`${img.css}`} />
                     </div>
                 </div>
             </div>

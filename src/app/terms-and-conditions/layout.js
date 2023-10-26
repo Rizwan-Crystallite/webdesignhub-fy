@@ -13,16 +13,7 @@ export const metadata = {
     // Canonical
     alternates: {
         canonical: 'https://www.webdesignhub.co/terms-and-conditions',
-    },
-    // OG Metas
-    openGraph: {
-        title: 'Terms & Conditions - Web Design Hub',
-        description: "Looking for a top rated web design company? Hire top web design company for stunning design solutions",
-        url: 'https://www.webdesignhub.co/terms-and-conditions',
-        siteName: 'Web Design Hub',
-        locale: 'en_US',
-        type: 'website',
-    },
+    }
 }
 
 export default function RootLayout({ children }) {

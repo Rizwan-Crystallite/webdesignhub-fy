@@ -16,7 +16,7 @@ const Services = ({ content }) => {
             <div className="py-[50px] md:py-[100px]">
                 <div className="container">
                     <div className="text-center mb-10">
-                        <h2 className="text-[30px] sm:text-[35px] xl:text-[40px] font-megat font-extrabold leading-tight text-black mb-3"
+                        <h2 className="text-[20px] sm:text-[25px] xl:text-[35px] font-megat font-extrabold leading-tight text-black mb-3"
                             dangerouslySetInnerHTML={{ __html: title.replace(/\n/g, "<br className='hidden md:block' />") }} />
                         <p className="text-[14px] xl:text-[16px] leading-[24px] xl:leading-[26px] text-black font-normal lg:w-2/3 lg:m-auto"
                             dangerouslySetInnerHTML={{ __html: desc.replace(/\n/g, "") }} />

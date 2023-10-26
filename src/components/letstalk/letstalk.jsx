@@ -43,7 +43,7 @@ const Letstalk = () => {
                     </div>
                     <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center z-10 flex-col">
                         <h2 className="text-[60px] lg:text-[80px] font-megat tracking-wider font-extrabold text-transparent lett" style={{
-                            "-webkitTextStrokeWidth": "0.1rem", "-webkitTextStrokeColor": "#fff"
+                            "WebkitTextStrokeWidth": "0.1rem", "WebkitTextStrokeColor": "#fff"
                         }}>JOIN THE</h2>
                         <h2 className="text-[40px] lg:text-[60px] text-black md:text-white font-normal">
                             WebDesignHub <span className="font-megat font-extrabold">Family</span>

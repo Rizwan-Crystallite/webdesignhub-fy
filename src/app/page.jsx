@@ -31,25 +31,25 @@ const Page = () => {
         subtitle: "Top Web Design Company",
         title: "Creating 100% Original Custom Website Designs",
         desc: "Frustrated by underperforming web designs? It's time for a change and we can help. Website Design Hub is trusted by businesses nationwide. We are a top-rated and affordable web design company, known for creating websites that are:",
-        points: ["Interactive", "Responsive", "Conversion-Focused", "SEO-Optimized"],
-        banner,
-        icons: [bannerIconOne, bannerIconTwo, bannerIconThree],
-        bg: "__homeHeroGradientBg",
-        btnBg: "bg-[#7F6CC7]",
-        btnBorder: "border-[#7F6CC7]",
-        btnHover: "hover:bg-[#7F6CC7]"
+        img: {
+            src: "/home/new/hero/hero.png",
+            width: "508",
+            height: "818",
+            css: "mb-[-100px]"
+        },
+        form: false
     };
     // Array for Small Banner Component Props
     const smallbanner = {
         page: "home",
         title: "Let us develop a responsive website to help you attract more visitors",
         desc: "Our professional web development team is at your service, dedicated to design and develop dynamic websites that urges visitors to take your desired action on the website.",
-        img: smallBannerImage,
-        bgColor: "__homeHeroGradientBg",
-        btnBg: "bg-[#7F6CC7]",
-        btnBorder: "border-[#7F6CC7]",
-        btnHover: "hover:bg-[#7F6CC7]",
-        theme: "dark"
+        img: {
+            src: "/home/new/smallBanner.png",
+            width: "430",
+            height: "419",
+            css: "absolute right-0 bottom-0"
+        },
     };
     // Array for Services Component Props
     const services = {
