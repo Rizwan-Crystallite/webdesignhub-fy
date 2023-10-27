@@ -3,13 +3,11 @@ import { useState } from "react";
 // Imports Components
 import Image from "next/image";
 import { Tab, TabPanel, Tabs, TabsBody, TabsHeader } from "@material-tailwind/react";
-import Button from "@/components/button/button";
 // Import Images
-import serviceTabArrow from "media/serviceTabArrow.svg";
 import CTA from "C/CTA";
 
 const Services = ({ content }) => {
-    const { title, desc, tabs, btnBg, btnColor, btnBorder, btnHover } = content;
+    const { title, desc, tabs } = content;
     const [activeTab, setActiveTab] = useState(String(tabs[0].value));
     return (
         <section>

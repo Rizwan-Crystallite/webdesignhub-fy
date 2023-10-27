@@ -106,23 +106,23 @@ const Footer = () => {
             icon: telephone
         },
         {
-            text: "info@webdesignhub.co",
-            link: "mailto:info@webdesignhub.co",
+            text: "info@creativelogodesigns.io",
+            link: "mailto:info@creativelogodesigns.io",
             icon: envelope
         },
     ];
     const socialLinks = [
         {
             icon: facebook,
-            link: "https://www.facebook.com/webdesignhubofficial/"
+            link: "https://www.facebook.com/creativelogodesignsofficial/"
         },
         {
             icon: twitter,
-            link: "https://twitter.com/webdesignhub_"
+            link: "https://twitter.com/creativelogodesigns_"
         },
         {
             icon: instagram,
-            link: "https://www.instagram.com/webdesignhubofficial"
+            link: "https://www.instagram.com/creativelogodesignsofficial"
         },
         {
             icon: linkedin,
@@ -138,7 +138,7 @@ const Footer = () => {
                             <Link href="/" className="mb-5 block">
                                 {path !== "/website-design-develop-landing" ? <Image src={logo} alt="logo" /> : <Image src={logo2} alt="logo2" />}
                             </Link>
-                            <p className="text-sm xl:text-base font-normal text-white">Web Design Hub excels in making custom logos, responsive website design and development. Our expert UI/UX designers contribute to your brand’s success with visually stunning and functional designs.</p>
+                            <p className="text-sm xl:text-base font-normal text-white">Creative Logo Designs excels in making custom logos, responsive website design and development. Our expert UI/UX designers contribute to your brand’s success with visually stunning and functional designs.</p>
                             <Image src={certification} alt="certification" className="mt-3" />
                         </div>
                         <div className="basis-full sm:basis-[48%] lg:basis-[20%]">
@@ -195,7 +195,7 @@ const Footer = () => {
                     <div className="flex gap-x-5 py-5 flex-wrap sm:flex-nowrap gap-y-5 sm:gap-y-0 items-center border-b-[1px] border-[#707070]">
                         <div className="basis-full sm:basis-1/2">
                             <p className="text-sm font-light text-white leading-6 text-center sm:text-left">
-                                Copyright © 2023 <Link href="/">webdesignhub.co</Link> | <Link href="https://bhaooinc.com/" target="_blank">Brand Of Bhaoo Incorporation Company</Link>
+                                Copyright © 2023 <Link href="/">creativelogodesigns.io</Link> | <Link href="https://bhaooinc.com/" target="_blank">Brand Of Bhaoo Incorporation Company</Link>
                             </p>
                         </div>
                         <div className="basis-full sm:basis-1/2">
@@ -216,7 +216,7 @@ const Footer = () => {
                     </div>
                     <div className="py-5">
                         <p className="text-[12px] font-light text-white leading-[22px]">
-                            <span className="font-semibold">Disclaimer</span>: Logo, name and graphic representation of webdesignhub and its products and services are trademarks of webdesignhub. All other company names, trademarks and logos mentioned on this website are the property of their respective owners and do not represent or imply endorsement, sponsorship or recommendation by webdesignhub and constitute or imply endorsement, sponsorship or recommendation thereof by webdesignhub and do not constitute or imply endorsement, sponsorship or recommendation of webdesignhub by the respective trademark owner.
+                            <span className="font-semibold">Disclaimer</span>: Logo, name and graphic representation of Creative Logo Designs and its products and services are trademarks of Creative Logo Designs. All other company names, trademarks and logos mentioned on this website are the property of their respective owners and do not represent or imply endorsement, sponsorship or recommendation by Creative Logo Designs and constitute or imply endorsement, sponsorship or recommendation thereof by Creative Logo Designs and do not constitute or imply endorsement, sponsorship or recommendation of Creative Logo Designs by the respective trademark owner.
                         </p>
                     </div>
                 </div>

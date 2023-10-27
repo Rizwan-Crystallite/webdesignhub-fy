@@ -10,6 +10,7 @@ import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Packages from "@/components/packages/packages";
 import Script from "next/script";
+import Portfolio from "@/components/services/services";
 
 const Page = () => {
     // Array for Hero Component Props
@@ -17,7 +18,7 @@ const Page = () => {
         page: "illustrationDesign",
         subtitle: "Best Illustration Designers",
         title: "5-Star Rated Top Illustration Design Company",
-        desc: "When you hire Web Design Hub,  you gain access to the best character illustrators, and gaming artwork. We make custom character designs, immersive gaming illustrations, and any related creative illustrations. Our skill in illustration design combines unique qualities that make us a distinctive illustration company.",
+        desc: "When you hire Creative Logo Designs,  you gain access to the best character illustrators, and gaming artwork. We make custom character designs, immersive gaming illustrations, and any related creative illustrations. Our skill in illustration design combines unique qualities that make us a distinctive illustration company.",
         img: {
             src: "/illustration-design/hero/hero.png",
             width: "638",
@@ -49,22 +50,44 @@ const Page = () => {
         title: "Design Consultation",
         desc: "Contact us for a free consultation, and let's design your captivating logo, website, and mobile app together!"
     }
+    // Array for Portfolio Component Props
+    const portfolio = {
+        title: "See it. You Must Have Faith",
+        desc: "Creative Logo Designs counts itself incredibly fortunate to have worked with such wonderful customers and provided them with excellent service.",
+        tabs: [
+            {
+                value: "all",
+                label: "All",
+                images: [
+                    "/portfolios/illustration-design/dark/1.png",
+                    "/portfolios/illustration-design/dark/2.png",
+                    "/portfolios/illustration-design/dark/3.png",
+                    "/portfolios/illustration-design/dark/4.png",
+                    "/portfolios/illustration-design/dark/5.png",
+                    "/portfolios/illustration-design/dark/6.png",
+                    "/portfolios/illustration-design/dark/7.png",
+                    "/portfolios/illustration-design/dark/8.png",
+                    "/portfolios/illustration-design/dark/9.png",
+                ],
+            }
+        ]
+    };
     // Array for Reviews Component Props
     const reviews = [
         {
-            message: "Web Design Hub created a special and eye-catching custom logo design that perfectly shows what our financial consulting firm is about. Our team and clients love it, thanks to their amazing logo design skills.",
+            message: "Creative Logo Designs created a special and eye-catching custom logo design that perfectly shows what our financial consulting firm is about. Our team and clients love it, thanks to their amazing logo design skills.",
             name: "Jennifer Mitchell",
             jd: "Senior Financial Advisor",
             profile: "/illustration-design/reviews/1.png"
         },
         {
-            message: "Their UI/UX web design service has significantly improved the visual appeal and functionality of our ecommerce website across devices. The user engagement on our website has increased a lot as well. Web Design Hub is the best web design company I have ever worked with.",
+            message: "Their UI/UX web design service has significantly improved the visual appeal and functionality of our ecommerce website across devices. The user engagement on our website has increased a lot as well. Creative Logo Designs is the best web design company I have ever worked with.",
             name: "Sarah Johnson",
             jd: "E-commerce Manager",
             profile: "/illustration-design/reviews/2.png"
         },
         {
-            message: "Hiring Web Design Hub for our tech startup web design and development has been one of the best decisions. It's not just about aesthetics; the functionality and user experience they delivered are nothing short of exceptional.",
+            message: "Hiring Creative Logo Designs for our tech startup web design and development has been one of the best decisions. It's not just about aesthetics; the functionality and user experience they delivered are nothing short of exceptional.",
             name: "Emily Parker",
             jd: "Co-founder",
             profile: "/illustration-design/reviews/3.png"
@@ -77,6 +100,7 @@ const Page = () => {
                 <Hero content={hero} />
                 <Services />
                 <SmallBanner content={smallbanner} />
+                <Portfolio content={portfolio} />
                 <Letstalk content={letstalk} />
                 <Packages content={packages} />
                 <Reviews content={reviews} />
@@ -89,10 +113,10 @@ const Page = () => {
                             "@context": "http://schema.org/",
                             "@type": "Product",
                             "name": "Illustration Design Company",
-                            "description": "WebDesignHub top premium illustration design Company, crafting bespoke artwork tailored to capture the essence of brands and bring creative ideas to life.",
+                            "description": "Creative Logo Designs top premium illustration design Company, crafting bespoke artwork tailored to capture the essence of brands and bring creative ideas to life.",
                             "brand": {
                                 "@type": "brand",
-                                "name": "WebDesignHub"
+                                "name": "Creative Logo Designs"
                             },
                             "aggregateRating": {
                                 "@type": "AggregateRating",

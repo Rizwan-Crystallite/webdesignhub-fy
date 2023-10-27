@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Top Illustration Design Company - Web Design Hub",
-    description: "WebDesignHub is your goto illustration design company. Bring your ideas to life with vibrant, bespoke illustrations. Engage with us today!",
+    title: "Top Illustration Design Company - Creative Logo Designs",
+    description: "Creative Logo Designs is your goto illustration design company. Bring your ideas to life with vibrant, bespoke illustrations. Engage with us today!",
     // Google Varification
     verification: {
         google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
@@ -12,7 +12,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.webdesignhub.co/illustration-design-company',
+        canonical: 'https://www.creativelogodesigns.io/illustration-design-company',
     }
 }
 

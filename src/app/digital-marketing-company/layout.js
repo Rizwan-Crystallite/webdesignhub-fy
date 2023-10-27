@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Leading Digital Marketing Company Services | WebDesignHub",
-    description: "WebDesignHub: The go-to digital marketing company for tailored strategies. Boost your online presence, traffic, and achieve ROI-focused results. Contact us!",
+    title: "Leading Digital Marketing Company Services | Creative Logo Designs",
+    description: "Creative Logo Designs: The go-to digital marketing company for tailored strategies. Boost your online presence, traffic, and achieve ROI-focused results. Contact us!",
     // Google Varification
     verification: {
         google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
@@ -12,7 +12,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.webdesignhub.co/digital-marketing-company',
+        canonical: 'https://www.creativelogodesigns.io/digital-marketing-company',
     }
 }
 

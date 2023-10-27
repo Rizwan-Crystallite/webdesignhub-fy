@@ -18,7 +18,7 @@ const Weare = () => {
                             <h2 className="text-xl sm:text-3xl xl:text-4xl font-megat text-black text-center font-normal leading-tight mb-3">
                                 Innovative Services & Exceptional Results
                             </h2>
-                            <p className="text-base text-black text-center font-normal mb-10 lg:mb-20">Our commitment to delivering innovative solutions and consistently surpassing expectations <br className="hidden xl:block" /> make Web Design Hub an exclusive choice</p>
+                            <p className="text-base text-black text-center font-normal mb-10 lg:mb-20">Our commitment to delivering innovative solutions and consistently surpassing expectations <br className="hidden xl:block" /> make Creative Logo Designs an exclusive choice</p>
                             <div className="flex lg:divide-x lg:divide-red mb-10 lg:mb-20 gap-5 flex-wrap lg:flex-nowrap justify-center">
                                 <div className="basis-[46%] md:basis-[30%] lg:basis-1/5">
                                     <Image src={one} alt={one} className="block m-auto mb-3" proprity="true" quality="85" />
@@ -61,7 +61,7 @@ const Weare = () => {
                                     </Link>
                                 </div>
                                 <div className="basis-full md:basis-[30%]">
-                                    <Link href="mailto:info@webdesignhub.co" className="text-xl lg:text-2xl font-medium font-sans text-black">Discuss Your Ideas <br />Info@WebDesignHub.Co</Link>
+                                    <Link href="mailto:info@creativelogodesigns.io" className="text-xl lg:text-2xl font-medium font-sans text-black">Discuss Your Ideas <br />Info@creativelogodesigns.io</Link>
                                 </div>
                             </div>
                         </div>

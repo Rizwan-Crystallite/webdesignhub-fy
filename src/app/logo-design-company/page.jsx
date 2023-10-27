@@ -1,7 +1,7 @@
 // Import Page Components
 import Hero from "@/components/hero/hero";
 import SmallBanner from "@/components/smallbanner/smallbanner";
-import Services from "@/components/services/services";
+import Portfolio from "@/components/services/services";
 import Reviews from "@/components/reviews/reviews";
 import Weare from "@/components/weare/weare";
 import Contact from "@/components/contact/contact";
@@ -17,7 +17,7 @@ const Page = () => {
         page: "logoDesign",
         subtitle: "Custom Logo Designs",
         title: "Logo Design Company That's Designing Brand’s Signature",
-        desc: "At Web Design Hub, we employ the best logo designers and illustrators to make creative logos for big companies and small businesses. As an affordable logo design company, we promise to create a logo that delivers impressive outcomes for your brand.",
+        desc: "At Creative Logo Designs, we employ the best logo designers and illustrators to make creative logos for big companies and small businesses. As an affordable logo design company, we promise to create a logo that delivers impressive outcomes for your brand.",
         img: {
             src: "/logo-design/hero/hero.png",
             width: "508",
@@ -36,97 +36,69 @@ const Page = () => {
             height: "428",
         },
     };
-    // Array for Services Component Props
-    const services = {
-        title: "Our Logo Design Agency Shines \n Across All Design Territories",
+    // Array for Portfolio Component Props
+    const portfolio = {
+        title: "See it. You Must Have Faith",
         desc: "Our logo designers offer a diverse range of premium design solutions to enhance your brand's \n visual identity. We create logos that capture your brand's unique spirit and also grab \n the attention of your target audience.",
-        btnBg: "bg-[#7F6CC7]",
-        btnBorder: "border-[#7F6CC7]",
-        btnHover: "hover:bg-[#7F6CC7]",
-        btnColor: "text-black",
         tabs: [
             {
-                value: "2d",
-                label: "2D Logos",
+                value: "combination",
+                label: "Combination",
                 images: [
-                    "/logo-design/services/2d/1.png",
-                    "/logo-design/services/2d/2.jpg",
-                    "/logo-design/services/2d/3.jpg",
-                    "/logo-design/services/2d/4.jpg",
-                    "/logo-design/services/2d/5.jpg",
-                    "/logo-design/services/2d/6.jpg",
-                ],
-            },
-            {
-                value: "3d",
-                label: "3D Logos",
-                images: [
-                    "/logo-design/services/3d/1.png",
-                    "/logo-design/services/3d/2.jpg",
-                    "/logo-design/services/3d/3.png",
-                    "/logo-design/services/3d/4.png",
-                    "/logo-design/services/3d/5.png",
-                    "/logo-design/services/3d/6.png",
+                    "/portfolios/logo-design/combination/1.png",
+                    "/portfolios/logo-design/combination/2.png",
+                    "/portfolios/logo-design/combination/3.png",
+                    "/portfolios/logo-design/combination/4.png",
+                    "/portfolios/logo-design/combination/5.png",
+                    "/portfolios/logo-design/combination/6.png",
+                    "/portfolios/logo-design/combination/7.png",
+                    "/portfolios/logo-design/combination/8.png",
+                    "/portfolios/logo-design/combination/9.png",
                 ],
             },
             {
                 value: "emblem",
-                label: "Emblem Logos",
+                label: "Emblem",
                 images: [
-                    "/logo-design/services/emblem/1.jpg",
-                    "/logo-design/services/emblem/2.jpg",
-                    "/logo-design/services/emblem/3.png",
-                    "/logo-design/services/emblem/4.jpg",
-                    "/logo-design/services/emblem/5.png",
-                    "/logo-design/services/emblem/6.png",
-                ],
-            },
-            {
-                value: "illustrative",
-                label: "Illustrative Logos",
-                images: [
-                    "/logo-design/services/illustrative/1.jpg",
-                    "/logo-design/services/illustrative/2.jpg",
-                    "/logo-design/services/illustrative/3.jpg",
-                    "/logo-design/services/illustrative/4.png",
-                    "/logo-design/services/illustrative/5.png",
-                    "/logo-design/services/illustrative/6.jpg",
-                ],
-            },
-            {
-                value: "letter",
-                label: "Letter Logos",
-                images: [
-                    "/logo-design/services/letter/1.jpg",
-                    "/logo-design/services/letter/2.jpg",
-                    "/logo-design/services/letter/3.png",
-                    "/logo-design/services/letter/4.png",
-                    "/logo-design/services/letter/5.jpg",
-                    "/logo-design/services/letter/6.png",
+                    "/portfolios/logo-design/emblem/1.png",
+                    "/portfolios/logo-design/emblem/2.png",
+                    "/portfolios/logo-design/emblem/3.png",
+                    "/portfolios/logo-design/emblem/4.png",
+                    "/portfolios/logo-design/emblem/5.png",
+                    "/portfolios/logo-design/emblem/6.png",
+                    "/portfolios/logo-design/emblem/7.png",
+                    "/portfolios/logo-design/emblem/8.png",
+                    "/portfolios/logo-design/emblem/9.png",
                 ],
             },
             {
                 value: "mascot",
-                label: "Mascot Logos",
+                label: "Mascot",
                 images: [
-                    "/logo-design/services/mascot/1.png",
-                    "/logo-design/services/mascot/2.jpg",
-                    "/logo-design/services/mascot/3.jpg",
-                    "/logo-design/services/mascot/4.png",
-                    "/logo-design/services/mascot/5.jpg",
-                    "/logo-design/services/mascot/6.png",
+                    "/portfolios/logo-design/mascot/1.png",
+                    "/portfolios/logo-design/mascot/2.png",
+                    "/portfolios/logo-design/mascot/3.png",
+                    "/portfolios/logo-design/mascot/4.png",
+                    "/portfolios/logo-design/mascot/5.png",
+                    "/portfolios/logo-design/mascot/6.png",
+                    "/portfolios/logo-design/mascot/7.png",
+                    "/portfolios/logo-design/mascot/8.png",
+                    "/portfolios/logo-design/mascot/9.png",
                 ],
             },
             {
-                value: "wordmark",
-                label: "Wordmark Logos",
+                value: "typography",
+                label: "Typography",
                 images: [
-                    "/logo-design/services/wordmark/1.png",
-                    "/logo-design/services/wordmark/2.jpg",
-                    "/logo-design/services/wordmark/3.png",
-                    "/logo-design/services/wordmark/4.png",
-                    "/logo-design/services/wordmark/5.png",
-                    "/logo-design/services/wordmark/6.png",
+                    "/portfolios/logo-design/typography/1.png",
+                    "/portfolios/logo-design/typography/2.png",
+                    "/portfolios/logo-design/typography/3.png",
+                    "/portfolios/logo-design/typography/4.png",
+                    "/portfolios/logo-design/typography/5.png",
+                    "/portfolios/logo-design/typography/6.png",
+                    "/portfolios/logo-design/typography/7.png",
+                    "/portfolios/logo-design/typography/8.png",
+                    "/portfolios/logo-design/typography/9.png",
                 ],
             }
         ]
@@ -147,19 +119,19 @@ const Page = () => {
     // Array for Reviews Component Props
     const reviews = [
         {
-            message: "Web Design Hub created a special and eye-catching custom logo design that perfectly shows what our financial consulting firm is about. Our team and clients love it, thanks to their amazing logo design skills.",
+            message: "Creative Logo Designs created a special and eye-catching custom logo design that perfectly shows what our financial consulting firm is about. Our team and clients love it, thanks to their amazing logo design skills.",
             name: "Jennifer Mitchell",
             jd: "Senior Financial Advisor",
             profile: "/logo-design/reviews/1.png"
         },
         {
-            message: "Their UI/UX web design service has significantly improved the visual appeal and functionality of our ecommerce website across devices. The user engagement on our website has increased a lot as well. Web Design Hub is the best web design company I have ever worked with.",
+            message: "Their UI/UX web design service has significantly improved the visual appeal and functionality of our ecommerce website across devices. The user engagement on our website has increased a lot as well. Creative Logo Designs is the best web design company I have ever worked with.",
             name: "Sarah Johnson",
             jd: "E-commerce Manager",
             profile: "/logo-design/reviews/2.png"
         },
         {
-            message: "Hiring Web Design Hub for our tech startup web design and development has been one of the best decisions. It's not just about aesthetics; the functionality and user experience they delivered are nothing short of exceptional.",
+            message: "Hiring Creative Logo Designs for our tech startup web design and development has been one of the best decisions. It's not just about aesthetics; the functionality and user experience they delivered are nothing short of exceptional.",
             name: "Emily Parker",
             jd: "Co-founder",
             profile: "/logo-design/reviews/3.png"
@@ -172,7 +144,7 @@ const Page = () => {
                 <Header />
                 <Hero content={hero} />
                 <SmallBanner content={smallbanner} />
-                <Services content={services} />
+                <Portfolio content={portfolio} />
                 <Letstalk content={letstalk} />
                 <Packages content={packages} />
                 <Reviews content={reviews} />
@@ -184,11 +156,11 @@ const Page = () => {
                         {
                             "@context": "http://schema.org/",
                             "@type": "Product",
-                            "name": "Custom Logo Design Services By WebDesignHub",
-                            "description": "WebDesignHub is a leading Custom Logo Design Company. Our skilled designers create impactful logos to elevate your brand. Partner with us for standout branding.",
+                            "name": "Custom Logo Design Services By Creative Logo Designs",
+                            "description": "Creative Logo Designs is a leading Custom Logo Design Company. Our skilled designers create impactful logos to elevate your brand. Partner with us for standout branding.",
                             "brand": {
                                 "@type": "brand",
-                                "name": "WebDesignHub"
+                                "name": "Creative Logo Designs"
                             },
                             "aggregateRating": {
                                 "@type": "AggregateRating",

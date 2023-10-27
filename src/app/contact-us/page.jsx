@@ -11,11 +11,11 @@ const Page = () => {
         page: "single",
         subtitle: "Top Web Designers",
         title: "Let's Create Your Dream Website Together",
-        desc: "At Web Design Hub, we drive your business to success. From logo and website design to SEO and motion graphics, we offer top-quality services at affordable prices.",
+        desc: "At Creative Logo Designs, we drive your business to success. From logo and website design to SEO and motion graphics, we offer top-quality services at affordable prices.",
         img: {
-            src: "/home/new/hero/hero.png",
-            width: "508",
-            height: "818",
+            src: "/contact-us/hero.png",
+            width: "538",
+            height: "591",
         },
         form: false
     };
@@ -29,8 +29,8 @@ const Page = () => {
             <main>
                 <Header />
                 <Hero content={hero} />
-                <Contact />
                 <Letstalk content={letstalk} />
+                <Contact />
                 <Footer />
             </main>
         </>

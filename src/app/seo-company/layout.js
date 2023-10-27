@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Top SEO Company Services | WebDesignHub",
-    description: "WebDesignHub stands as a leading SEO company, optimizing your digital presence for maximum visibility. Drive organic traffic and achieve top search rankings. Contact us!",
+    title: "Top SEO Company Services | Creative Logo Designs",
+    description: "Creative Logo Designs stands as a leading SEO company, optimizing your digital presence for maximum visibility. Drive organic traffic and achieve top search rankings. Contact us!",
     // Google Varification
     verification: {
         google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
@@ -12,7 +12,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.webdesignhub.co/seo-company',
+        canonical: 'https://www.creativelogodesigns.io/seo-company',
     }
 }
 

@@ -10,6 +10,7 @@ import Header from "@/components/header/header";
 import Footer from "@/components/footer/footer";
 import Packages from "@/components/packages/packages";
 import Script from "next/script";
+import Portfolio from "@/components/services/services";
 
 const Page = () => {
     // Array for Hero Component Props
@@ -49,6 +50,73 @@ const Page = () => {
         title: "Design Consultation",
         desc: "Discuss with us and let us design motion graphics for you without facing any hassles."
     }
+    // Array for Portfolio Component Props
+    const portfolio = {
+        title: "See it. You Must Have Faith",
+        desc: "Creative Logo Designs counts itself incredibly fortunate to have worked with such wonderful customers and provided them with excellent service.",
+        tabs: [
+            {
+                value: "2d-animation",
+                label: "2D Animation",
+                images: [
+                    "/portfolios/motion-graphics/2d-animation/1.png",
+                    "/portfolios/motion-graphics/2d-animation/2.png",
+                    "/portfolios/motion-graphics/2d-animation/3.png",
+                    "/portfolios/motion-graphics/2d-animation/4.png",
+                    "/portfolios/motion-graphics/2d-animation/5.png",
+                    "/portfolios/motion-graphics/2d-animation/6.png",
+                    "/portfolios/motion-graphics/2d-animation/7.png",
+                    "/portfolios/motion-graphics/2d-animation/8.png",
+                    "/portfolios/motion-graphics/2d-animation/9.png",
+                ],
+            },
+            {
+                value: "3d-animation",
+                label: "3D Animation",
+                images: [
+                    "/portfolios/motion-graphics/3d-animation/1.png",
+                    "/portfolios/motion-graphics/3d-animation/2.png",
+                    "/portfolios/motion-graphics/3d-animation/3.png",
+                    "/portfolios/motion-graphics/3d-animation/4.png",
+                    "/portfolios/motion-graphics/3d-animation/5.png",
+                    "/portfolios/motion-graphics/3d-animation/6.png",
+                    "/portfolios/motion-graphics/3d-animation/7.png",
+                    "/portfolios/motion-graphics/3d-animation/8.png",
+                    "/portfolios/motion-graphics/3d-animation/9.png",
+                ],
+            },
+            {
+                value: "enviornment",
+                label: "Enviornment",
+                images: [
+                    "/portfolios/motion-graphics/enviornment/1.png",
+                    "/portfolios/motion-graphics/enviornment/2.png",
+                    "/portfolios/motion-graphics/enviornment/3.png",
+                    "/portfolios/motion-graphics/enviornment/4.png",
+                    "/portfolios/motion-graphics/enviornment/5.png",
+                    "/portfolios/motion-graphics/enviornment/6.png",
+                    "/portfolios/motion-graphics/enviornment/7.png",
+                    "/portfolios/motion-graphics/enviornment/8.png",
+                    "/portfolios/motion-graphics/enviornment/9.png",
+                ],
+            },
+            {
+                value: "informative",
+                label: "Informative",
+                images: [
+                    "/portfolios/motion-graphics/informative/1.png",
+                    "/portfolios/motion-graphics/informative/2.png",
+                    "/portfolios/motion-graphics/informative/3.png",
+                    "/portfolios/motion-graphics/informative/4.png",
+                    "/portfolios/motion-graphics/informative/5.png",
+                    "/portfolios/motion-graphics/informative/6.png",
+                    "/portfolios/motion-graphics/informative/7.png",
+                    "/portfolios/motion-graphics/informative/8.png",
+                    "/portfolios/motion-graphics/informative/9.png",
+                ],
+            }
+        ]
+    };
     // Array for Reviews Component Props
     const reviews = [
         {
@@ -58,13 +126,13 @@ const Page = () => {
             profile: "/motion-graphics/reviews/1.png"
         },
         {
-            message: "I don’t have words to describe the services offered by Web Design Hub. I just want to state, “Mind Blowing Visual Effects!” The whole team gave their 101% with us on a high-profile event, and their visual effects were just amazing. They turned the event visuals we provided into something extraordinary. I would personally recommend each one of you to get your services from this Company.",
+            message: "I don’t have words to describe the services offered by Creative Logo Designs. I just want to state, “Mind Blowing Visual Effects!” The whole team gave their 101% with us on a high-profile event, and their visual effects were just amazing. They turned the event visuals we provided into something extraordinary. I would personally recommend each one of you to get your services from this Company.",
             name: "Ellen Brown",
             jd: false,
             profile: "/motion-graphics/reviews/2.png"
         },
         {
-            message: "I am glad I chose Web Design Hub for character animation services. They were ideal for the animated figures we required for our educational materials program. Our audience likes the cartoons because they are engaging and attractive. Their crew is unmatched in terms of talent and professionalism.",
+            message: "I am glad I chose Creative Logo Designs for character animation services. They were ideal for the animated figures we required for our educational materials program. Our audience likes the cartoons because they are engaging and attractive. Their crew is unmatched in terms of talent and professionalism.",
             name: "John Lennon",
             jd: false,
             profile: "/motion-graphics/reviews/3.png"
@@ -77,6 +145,7 @@ const Page = () => {
                 <Hero content={hero} />
                 <Services />
                 <SmallBanner content={smallbanner} />
+                <Portfolio content={portfolio} />
                 <Letstalk content={letstalk} />
                 <Packages content={packages} />
                 <Reviews content={reviews} />
@@ -89,10 +158,10 @@ const Page = () => {
                             "@context": "http://schema.org",
                             "@type": "Product",
                             "name": "Motion Graphic Design Company",
-                            "description": "WebDesignHub is your cutting-edge motion graphic design company, producing captivating animations that engage, entertain, and effectively convey your brand message.",
+                            "description": "Creative Logo Designs is your cutting-edge motion graphic design company, producing captivating animations that engage, entertain, and effectively convey your brand message.",
                             "brand": {
                                 "@type": "brand",
-                                "name": "WebDesignHub"
+                                "name": "Creative Logo Designs"
                             },
                             "aggregateRating": {
                                 "@type": "AggregateRating",

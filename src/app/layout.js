@@ -8,8 +8,8 @@ import "./global.css";
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Top Web Design Company - Web Design Hub",
-    description: "WebDesignHub is an award-winning top web design company with a team of professional web designers, and online strategists, delivering cutting-edge websites for businesses.",
+    title: "Top Web Design Company - Creative Logo Designs",
+    description: "Creative Logo Designs is an award-winning top web design company with a team of professional web designers, and online strategists, delivering cutting-edge websites for businesses.",
     // Google Varification
     verification: {
         google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
@@ -19,7 +19,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.webdesignhub.co',
+        canonical: 'https://www.creativelogodesigns.io',
     }
 }
 

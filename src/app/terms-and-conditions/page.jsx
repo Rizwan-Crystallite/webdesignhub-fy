@@ -35,7 +35,7 @@ const Page = () => {
                             Turn Around Time
                         </h2>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            Web Design Hub have a turnaround time of 48-72 hours for most web development services. Note that this is not the complete time frame for a project. It is only the turnaround time for a single iteration of the development stage. Depending on the kind of service, the time required for revisions could vary from a minimum of 48 hours to 72 hours which means two working days.
+                            Creative Logo Designs have a turnaround time of 48-72 hours for most web development services. Note that this is not the complete time frame for a project. It is only the turnaround time for a single iteration of the development stage. Depending on the kind of service, the time required for revisions could vary from a minimum of 48 hours to 72 hours which means two working days.
                         </p>
                         <h3 className="text-md sm:text-lg font-sans text-[#202020] font-semibold leading-none mb-2">
                             For Example:
@@ -56,7 +56,7 @@ const Page = () => {
                             Refund Policy & Money Back Guarantee
                         </h2>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            In any event, any deposited funds for a project shall not be subject to refund after delivery if the initial website design and theme are approved, or a change is requested unless Web Design Hub cancels or terminates your contract for a reason other than your breach or non-performance.
+                            In any event, any deposited funds for a project shall not be subject to refund after delivery if the initial website design and theme are approved, or a change is requested unless Creative Logo Designs cancels or terminates your contract for a reason other than your breach or non-performance.
                         </p>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
                             All refund requests will be fulfilled as per the following arrangement:
@@ -124,12 +124,12 @@ const Page = () => {
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
                                 <span>
-                                    All refund requests should be communicated to the support department. Web Design Hub, based on the violation of your user agreement, reserves the right to approve/disapprove your request on an individual case-to-case basis.
+                                    All refund requests should be communicated to the support department. Creative Logo Designs, based on the violation of your user agreement, reserves the right to approve/disapprove your request on an individual case-to-case basis.
                                 </span>
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
                                 <span>
-                                    For Web Design Hub Custom packages, the refund will be applicable depending on similar terms as it is on the single packages.
+                                    For Creative Logo Designs Custom packages, the refund will be applicable depending on similar terms as it is on the single packages.
                                 </span>
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
@@ -154,12 +154,12 @@ const Page = () => {
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal">
                                 <span>
-                                    100% unique website guarantee entitles you to a re-draw if our developed website is to be found considerably similar to another website that may already exist. Any resemblance to an existing website will be merely a coincidence, and Web Design Hub will not accept any responsibility or claim of any compensation in such a case. It is the client's responsibility to get their website copyrighted.
+                                    100% unique website guarantee entitles you to a re-draw if our developed website is to be found considerably similar to another website that may already exist. Any resemblance to an existing website will be merely a coincidence, and Creative Logo Designs will not accept any responsibility or claim of any compensation in such a case. It is the client's responsibility to get their website copyrighted.
                                 </span>
                             </li>
                         </ul>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-2">
-                            Note: Web Design Hub hold all the rights to reject any project or cancel the contract whenever it deems necessary. After the refund, you will not have any rights to use the domain for any purpose; they will be the sole property of Web Design Hub. The company will be the rightful owner of the website.
+                            Note: Creative Logo Designs hold all the rights to reject any project or cancel the contract whenever it deems necessary. After the refund, you will not have any rights to use the domain for any purpose; they will be the sole property of Creative Logo Designs. The company will be the rightful owner of the website.
                         </p>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
                             Services not related to website services are not eligible for refunds under any circumstances. They are not covered under our 100% money-back guarantee. If such a service is acquired as part of a Package Deal of any kind, it cannot be used to request a refund on the entire package. Examples of such services are as follows:
@@ -207,7 +207,7 @@ const Page = () => {
                             </li>
                         </ul>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            For services that are not covered under the 100% refund policy, in case of dissatisfaction, Web Design Hub management, after reviewing the project, may choose to offer a partial refund to the client.
+                            For services that are not covered under the 100% refund policy, in case of dissatisfaction, Creative Logo Designs management, after reviewing the project, may choose to offer a partial refund to the client.
                         </p>
                         <h2 className="text-xl sm:text-2xl font-sans text-[#202020] font-semibold leading-none mb-2">
                             How to claim your refund
@@ -233,14 +233,14 @@ const Page = () => {
                                     </li>
                                     <li>
                                         <span>
-                                            <a href="mailto:info@webdesignhub.co" className="text-[#0F2847]">info@webdesignhub.co</a>
+                                            <a href="mailto:info@creativelogodesigns.io" className="text-[#0F2847]">info@creativelogodesigns.io</a>
                                         </span>
                                     </li>
                                 </ul>
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
                                 <span>
-                                    We will try to resolve your concern by virtue of our revision policy immediately, or else we will email you a refund request approval from our refund department. After the refund, your website copyrights would be obtained by Web Design Hub, and you would not be able to use the website design sent by the company. Let us also specify that:
+                                    We will try to resolve your concern by virtue of our revision policy immediately, or else we will email you a refund request approval from our refund department. After the refund, your website copyrights would be obtained by Creative Logo Designs, and you would not be able to use the website design sent by the company. Let us also specify that:
                                 </span>
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
@@ -250,7 +250,7 @@ const Page = () => {
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal">
                                 <span>
-                                    Working in collaboration with the Government Copyright Agencies, Web Design Hub would share Copyright Acquisition information for the refunded designs that would restrict the re-use of the website as its original layout in the future. If you have any questions or concerns about our Refund Policy, please contact us by clicking here <a href="mailto:info@webdesignhub.co" className="text-[#0F2847]">info@webdesignhub.co</a>
+                                    Working in collaboration with the Government Copyright Agencies, Creative Logo Designs would share Copyright Acquisition information for the refunded designs that would restrict the re-use of the website as its original layout in the future. If you have any questions or concerns about our Refund Policy, please contact us by clicking here <a href="mailto:info@creativelogodesigns.io" className="text-[#0F2847]">info@creativelogodesigns.io</a>
                                 </span>
                             </li>
                         </ul>
@@ -266,7 +266,7 @@ const Page = () => {
                         <ul className="list-disc list-inside mb-5">
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
                                 <span>
-                                    Emails Sent back and forth through official emails that are "<a href="mailto:info@webdesignhub.co" className="text-[#0F2847]">info@webdesignhub.co</a>" are to be only considered forms of valid communication.
+                                    Emails Sent back and forth through official emails that are "<a href="mailto:info@creativelogodesigns.io" className="text-[#0F2847]">info@creativelogodesigns.io</a>" are to be only considered forms of valid communication.
                                 </span>
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
@@ -284,7 +284,7 @@ const Page = () => {
                             Quality Assurance Policy
                         </h2>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            Web Design Hub will do their best to meet your requirements, and our web developers will do their best to fulfill your expectations. We believe in providing the best website, and each of our layouts is well crafted.
+                            Creative Logo Designs will do their best to meet your requirements, and our web developers will do their best to fulfill your expectations. We believe in providing the best website, and each of our layouts is well crafted.
                         </p>
                         <h2 className="text-xl sm:text-2xl font-sans text-[#202020] font-semibold leading-none mb-2">
                             100% Satisfaction Guarantee
@@ -335,12 +335,12 @@ const Page = () => {
                             Website Ownership & Rights
                         </h2>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            All finalized websites provided by Web Design Hub are done so on a written request of finalization by the client, and upon finalization, the client receives all the credentials and owns 100% of all rights of ownership to the said website.
+                            All finalized websites provided by Creative Logo Designs are done so on a written request of finalization by the client, and upon finalization, the client receives all the credentials and owns 100% of all rights of ownership to the said website.
                         </p>
                         <ul className="list-disc list-inside mb-5">
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
                                 <span>
-                                    The client shall own the Final Website design provided by Web Design Hub in all its entirety.
+                                    The client shall own the Final Website design provided by Creative Logo Designs in all its entirety.
                                 </span>
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
@@ -363,12 +363,12 @@ const Page = () => {
                             Content Creation & Population
                         </h2>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            Web Design Hub will not be responsible for creating or populating content (e.g., text/Images) into the website unless purchased exclusively otherwise. In which case:
+                            Creative Logo Designs will not be responsible for creating or populating content (e.g., text/Images) into the website unless purchased exclusively otherwise. In which case:
                         </p>
                         <ul className="list-disc list-inside mb-5">
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
                                 <span>
-                                    Web Design Hub will populate the website with content created for the client
+                                    Creative Logo Designs will populate the website with content created for the client
                                 </span>
                                 <ul className="list-decimal list-inside pl-5">
                                     <li>
@@ -380,12 +380,12 @@ const Page = () => {
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
                                 <span>
-                                    Web Design Hub will populate the website with images
+                                    Creative Logo Designs will populate the website with images
                                 </span>
                                 <ul className="list-decimal list-inside pl-5">
                                     <li>
                                         <span>
-                                            Web Design Hub will acquire stock imagery for the client from stock photo websites.
+                                            Creative Logo Designs will acquire stock imagery for the client from stock photo websites.
                                         </span>
                                     </li>
                                     <li>
@@ -402,7 +402,7 @@ const Page = () => {
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
                                 <span>
-                                    Web Design Hub will populate the website with products and product details.
+                                    Creative Logo Designs will populate the website with products and product details.
                                 </span>
                                 <ul className="list-decimal list-inside pl-5">
                                     <li>
@@ -419,17 +419,17 @@ const Page = () => {
                         <ul className="list-disc list-inside mb-5">
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
                                 <span>
-                                    Web Design Hub does not share the customer information regarding their project or contact details with anyone. The client's person and project information is kept confidential at all points.
+                                    Creative Logo Designs does not share the customer information regarding their project or contact details with anyone. The client's person and project information is kept confidential at all points.
                                 </span>
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
                                 <span>
-                                    Once the project is completed successfully, both parties, Web Design Hub and The Client, agree not to intentionally defame or otherwise disparage the other with respect to matters arising after project completion.
+                                    Once the project is completed successfully, both parties, Creative Logo Designs and The Client, agree not to intentionally defame or otherwise disparage the other with respect to matters arising after project completion.
                                 </span>
                             </li>
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal">
                                 <span>
-                                    Once the project is completed successfully, each Party agrees to refrain from (and Web Design Hub shall take reasonable steps to cause its officers and directors to refrain from), either directly or indirectly, hereafter making any defamatory comments of any type or nature whatsoever to anyone about the Client (and in the case of the Company, its employees, officers, directors, agents, consultants, affiliates, investors or business partners).
+                                    Once the project is completed successfully, each Party agrees to refrain from (and Creative Logo Designs shall take reasonable steps to cause its officers and directors to refrain from), either directly or indirectly, hereafter making any defamatory comments of any type or nature whatsoever to anyone about the Client (and in the case of the Company, its employees, officers, directors, agents, consultants, affiliates, investors or business partners).
                                 </span>
                             </li>
                         </ul>
@@ -437,7 +437,7 @@ const Page = () => {
                             Record Maintenance
                         </h2>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            Web Design Hub keep the records of finalized product delivery and communication.
+                            Creative Logo Designs keep the records of finalized product delivery and communication.
                         </p>
                         <h2 className="text-xl sm:text-2xl font-sans text-[#202020] font-semibold leading-none mb-2">
                             Customer Support
@@ -449,7 +449,7 @@ const Page = () => {
                             Technical Support Policy
                         </h2>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            Web Design Hub is primarily a website service and website consultancy provider. We will design and develop the services that the client needs. On occasions, our packages and services purchased will include technical aspects to help the client with their websites and emails. Web Design Hub will provide the client with the basic information regarding those services and the settings required to make those services work. Web Design Hub will not be responsible for providing detailed training or installations of said services on the customer's end. Such services may include but are not limited to:
+                            Creative Logo Designs is primarily a website service and website consultancy provider. We will design and develop the services that the client needs. On occasions, our packages and services purchased will include technical aspects to help the client with their websites and emails. Creative Logo Designs will provide the client with the basic information regarding those services and the settings required to make those services work. Creative Logo Designs will not be responsible for providing detailed training or installations of said services on the customer's end. Such services may include but are not limited to:
                         </p>
                         <ul className="list-disc list-inside mb-5">
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal">
@@ -459,7 +459,7 @@ const Page = () => {
                                 <ul className="list-decimal list-inside pl-5">
                                     <li>
                                         <span>
-                                            Web Design Hub will deploy the website for the customer on
+                                            Creative Logo Designs will deploy the website for the customer on
                                         </span>
                                         <ul className="list-disc list-inside pl-5">
                                             <li>
@@ -469,7 +469,7 @@ const Page = () => {
                                                 <ul className="list-decimal  list-inside pl-5">
                                                     <li>
                                                         <span>
-                                                            Hosting Service provided by Web Design Hub is a free service provided to the client as an added feature without any cost. It is acquired from a Third Party Service provider.
+                                                            Hosting Service provided by Creative Logo Designs is a free service provided to the client as an added feature without any cost. It is acquired from a Third Party Service provider.
                                                         </span>
                                                     </li>
                                                 </ul>
@@ -483,7 +483,7 @@ const Page = () => {
                                                 <ul className="list-decimal  list-inside pl-5">
                                                     <li>
                                                         <span>
-                                                            In the event the website is hosted on a third-party web server purchased by the customer, Web Design Hub will not be held responsible for any kind of server or hosting-related issues.
+                                                            In the event the website is hosted on a third-party web server purchased by the customer, Creative Logo Designs will not be held responsible for any kind of server or hosting-related issues.
                                                         </span>
                                                     </li>
                                                 </ul>
@@ -494,7 +494,7 @@ const Page = () => {
                             </li>
                         </ul>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            There is no Service Level Agreement (SLA) between the client and Web Design Hub in terms of technical assistance or service outage unless purchased separately as an ongoing maintenance service.
+                            There is no Service Level Agreement (SLA) between the client and Creative Logo Designs in terms of technical assistance or service outage unless purchased separately as an ongoing maintenance service.
                         </p>
                         <ul className="list-disc list-inside mb-5">
                             <li className="text-[14px] leading-[28px] text-[#565151] font-normal mb-2">
@@ -504,12 +504,12 @@ const Page = () => {
                                 <ul className="list-decimal  list-inside pl-5">
                                     <li>
                                         <span>
-                                            Web Design Hub will provide the customer with a user manual to use the Website CMS (Content Management System).
+                                            Creative Logo Designs will provide the customer with a user manual to use the Website CMS (Content Management System).
                                         </span>
                                     </li>
                                     <li>
                                         <span>
-                                            Web Design Hub will not be responsible for training the client in the said Website CMS (Content Management System).
+                                            Creative Logo Designs will not be responsible for training the client in the said Website CMS (Content Management System).
                                         </span>
                                     </li>
                                 </ul>
@@ -521,36 +521,36 @@ const Page = () => {
                                 <ul className="list-decimal  list-inside pl-5">
                                     <li>
                                         <span>
-                                            Web Design Hub will provide the customer with the necessary settings and information to install the emails on their end.
+                                            Creative Logo Designs will provide the customer with the necessary settings and information to install the emails on their end.
                                         </span>
                                     </li>
                                     <li>
                                         <span>
-                                            Web Design Hub will not be responsible for installing said emails onto the customer end.
+                                            Creative Logo Designs will not be responsible for installing said emails onto the customer end.
                                         </span>
                                     </li>
                                     <li>
                                         <span>
-                                            Web Design Hub will not be responsible for providing technical support or assistance in troubleshooting errors on email usage as all our emails are on open servers and accessible by all service providers.
+                                            Creative Logo Designs will not be responsible for providing technical support or assistance in troubleshooting errors on email usage as all our emails are on open servers and accessible by all service providers.
                                         </span>
                                     </li>
                                 </ul>
                             </li>
                         </ul>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            Web Design Hub will not be held responsible in any way for the customer's failure to execute, install or learn the usage of the above-said services on their end, as the responsibilities for those lie on the customer's end.
+                            Creative Logo Designs will not be held responsible in any way for the customer's failure to execute, install or learn the usage of the above-said services on their end, as the responsibilities for those lie on the customer's end.
                         </p>
                         <h2 className="text-xl sm:text-2xl font-sans text-[#202020] font-semibold leading-none mb-2">
                             Email & Mobile Phone Policy
                         </h2>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            This policy outlines the terms and conditions regarding the use of email and mobile phone contact information provided to Web Design Hub.
+                            This policy outlines the terms and conditions regarding the use of email and mobile phone contact information provided to Creative Logo Designs.
                         </p>
                         <h2 className="text-xl sm:text-2xl font-sans text-[#202020] font-semibold leading-none mb-2">
                             Consent and Usage
                         </h2>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            By providing your email address and/or mobile phone number, you consent to receive communication from Web Design Hub. This includes, transitional messages, periodic updates about your service or project, updates, newsletters, and services delivery e.g. Design attachments, Project updates and Revisions update.
+                            By providing your email address and/or mobile phone number, you consent to receive communication from Creative Logo Designs. This includes, transitional messages, periodic updates about your service or project, updates, newsletters, and services delivery e.g. Design attachments, Project updates and Revisions update.
                         </p>
                         <h2 className="text-xl sm:text-2xl font-sans text-[#202020] font-semibold leading-none mb-2">
                             Carrier Charges Disclosure
@@ -592,13 +592,13 @@ const Page = () => {
                             Changes to Policy
                         </h2>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal mb-5">
-                            Web Design Hub reserves the right to modify this policy at any time. Any changes will be posted on our website, and it is your responsibility to review these changes.
+                            Creative Logo Designs reserves the right to modify this policy at any time. Any changes will be posted on our website, and it is your responsibility to review these changes.
                         </p>
                         <h2 className="text-xl sm:text-2xl font-sans text-[#202020] font-semibold leading-none mb-2">
                             Contact Us
                         </h2>
                         <p className="text-[15px] leading-[25px] text-[#565151] font-normal">
-                            if you have any questions or concerns regarding this policy, please contact us at <a href="mailto:info@webdesignhub.co" className="text-[#0F2847] font-bold">info@webdesignhub.co</a>
+                            if you have any questions or concerns regarding this policy, please contact us at <a href="mailto:info@creativelogodesigns.io" className="text-[#0F2847] font-bold">info@creativelogodesigns.io</a>
                         </p>
                     </div>
                 </div>

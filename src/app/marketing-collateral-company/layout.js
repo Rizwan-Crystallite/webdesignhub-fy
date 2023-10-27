@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Best Marketing Collateral Company | WebDesignHub",
-    description: "WebDesignHub: Your trusted Marketing Collateral Company. Craft brand-aligned assets that captivate and convert. Elevate your outreach. Connect with us today!",
+    title: "Best Marketing Collateral Company | Creative Logo Designs",
+    description: "Creative Logo Designs: Your trusted Marketing Collateral Company. Craft brand-aligned assets that captivate and convert. Elevate your outreach. Connect with us today!",
     // Google Varification
     verification: {
         google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
@@ -12,7 +12,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.webdesignhub.co/marketing-collateral-company',
+        canonical: 'https://www.creativelogodesigns.io/marketing-collateral-company',
     }
 }
 

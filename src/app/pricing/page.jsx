@@ -13,12 +13,11 @@ const Page = () => {
         page: "single",
         subtitle: "Web Design & Development",
         title: "Comprehensive Design Solutions at Affordable Prices",
-        desc: "Web Design Hub: Your Destination for High-Quality Design and Development Services, Crafted to Fit Your Budget.",
+        desc: "Creative Logo Designs: Your Destination for High-Quality Design and Development Services, Crafted to Fit Your Budget.",
         img: {
-            src: "/home/new/hero/hero.png",
+            src: "/packages/hero.png",
             width: "508",
-            height: "818",
-            css: "mb-[-100px]"
+            height: "678",
         },
         form: false
     };

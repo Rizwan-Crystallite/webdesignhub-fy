@@ -1,7 +1,7 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Terms & Conditions - Web Design Hub",
+    title: "Terms & Conditions - Creative Logo Designs",
     description: "Looking for a top rated web design company? Hire top web design company for stunning design solutions",
     // Google Varification
     verification: {
@@ -12,7 +12,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.webdesignhub.co/terms-and-conditions',
+        canonical: 'https://www.creativelogodesigns.io/terms-and-conditions',
     }
 }
 

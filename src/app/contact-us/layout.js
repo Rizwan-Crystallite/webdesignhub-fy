@@ -1,7 +1,7 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Contact Us - Web Design Hub",
+    title: "Contact Us - Creative Logo Designs",
     description: "Looking for a top rated web design company? Hire top web design company for stunning design solutions",
     // Google Varification
     verification: {
@@ -12,7 +12,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.webdesignhub.co/contact-us',
+        canonical: 'https://www.creativelogodesigns.io/contact-us',
     }
 }
 

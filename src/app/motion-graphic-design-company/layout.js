@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Top Motion Graphics Design Company | WebDesignHub",
-    description: "Your premier motion graphics design company WebDesignHub. Elevate your brand visuals with dynamic animations and unique designs. Captivate audiences. Connect now!b",
+    title: "Top Motion Graphics Design Company | Creative Logo Designs",
+    description: "Your premier motion graphics design company Creative Logo Designs. Elevate your brand visuals with dynamic animations and unique designs. Captivate audiences. Connect now!b",
     // Google Varification
     verification: {
         google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
@@ -12,7 +12,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.webdesignhub.co/motion-graphic-design-company',
+        canonical: 'https://www.creativelogodesigns.io/motion-graphic-design-company',
     }
 }
 

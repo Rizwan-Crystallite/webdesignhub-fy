@@ -1013,7 +1013,7 @@ const Page = () => {
                                 <Slider {...reviewsSlider} className="__reviewsSlider">
                                     <div>
                                         <p className="text-[16px] leading-[26px] font-sans font-normal  text-gray-600">
-                                            "Web Design Hub created a special and eye-catching custom logo design that perfectly shows what our financial consulting firm is about. Our team and clients love it, thanks to their amazing logo design skills."
+                                            "Creative Logo Designs created a special and eye-catching custom logo design that perfectly shows what our financial consulting firm is about. Our team and clients love it, thanks to their amazing logo design skills."
                                         </p>
                                         <span className="text-[10px] sm:text-[14px] lg:text-[16px] leading-none font-light text-white block mt-3 w-max px-2 sm:px-4 py-3 rounded-[50px] bg-[#0F2847]">
                                             — Jennifer Mitchell, Senior Financial Advisor
@@ -1021,7 +1021,7 @@ const Page = () => {
                                     </div>
                                     <div>
                                         <p className="text-[16px] leading-[26px] font-sans font-normal  text-gray-600">
-                                            “Their UI/UX web design service has significantly improved the visual appeal and functionality of our ecommerce website across devices. The user engagement on our website has increased a lot as well. Web Design Hub is the best web design company I have ever worked with.”
+                                            “Their UI/UX web design service has significantly improved the visual appeal and functionality of our ecommerce website across devices. The user engagement on our website has increased a lot as well. Creative Logo Designs is the best web design company I have ever worked with.”
                                         </p>
                                         <span className="text-[10px] sm:text-[14px] lg:text-[16px] leading-none font-light text-white block mt-3 w-max px-2 sm:px-4 py-3 rounded-[50px] bg-[#0F2847]">
                                             — Sarah Johnson, E-commerce Manager
@@ -1029,7 +1029,7 @@ const Page = () => {
                                     </div>
                                     <div>
                                         <p className="text-[16px] leading-[26px] font-sans font-normal  text-gray-600">
-                                            “Hiring Web Design Hub for our tech startup web design and development has been one of the best decisions. It's not just about aesthetics; the functionality and user experience they delivered are nothing short of exceptional.”
+                                            “Hiring Creative Logo Designs for our tech startup web design and development has been one of the best decisions. It's not just about aesthetics; the functionality and user experience they delivered are nothing short of exceptional.”
                                         </p>
                                         <span className="text-[10px] sm:text-[14px] lg:text-[16px] leading-none font-light text-white block mt-3 w-max px-2 sm:px-4 py-3 rounded-[50px] bg-[#0F2847]">
                                             — Emily Parker, Co-founder

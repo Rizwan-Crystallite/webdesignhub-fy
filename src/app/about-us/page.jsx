@@ -13,13 +13,13 @@ const Page = () => {
     // Array for Hero Component Props
     const hero = {
         page: "single",
-        subtitle: "Web Design Hub Where Brands",
+        subtitle: "Creative Logo Designs Where Brands",
         title: "Are Recognized & Businesses are Boosted",
-        desc: "Welcome to Web Design Hub, the meeting place of creativity and expertise. We are your dependable partner in creating outstanding digital experiences, growing businesses, and making sure your brand stands out in the constant competitive environment.",
+        desc: "Welcome to Creative Logo Designs, the meeting place of creativity and expertise. We are your dependable partner in creating outstanding digital experiences, growing businesses, and making sure your brand stands out in the constant competitive environment.",
         img: {
-            src: "/home/new/hero/hero.png",
-            width: "508",
-            height: "818",
+            src: "/about-us/hero/hero.png",
+            width: "453",
+            height: "678",
         },
         form: true
     }; 
@@ -29,7 +29,7 @@ const Page = () => {
         title: "Allow us to assist you in developing a web presence.",
         desc: "Our web development team is here to assist you in reaching your business goals through the creation of an interesting and functional website.",
         img: {
-            src: "/home/new/smallBanner.png",
+            src: "/about-us/smallBanner.png",
             width: "430",
             height: "419",
             css: "absolute right-0 bottom-0"

@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Top Website Development Company | WebDesignHub",
-    description: "WebDesignHub: Your trusted website development company. Craft dynamic, responsive sites tailored to your needs. Unlock your digital potential. Reach out now!",
+    title: "Top Website Development Company | Creative Logo Designs",
+    description: "Creative Logo Designs: Your trusted website development company. Craft dynamic, responsive sites tailored to your needs. Unlock your digital potential. Reach out now!",
     // Google Varification
     verification: {
         google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
@@ -12,7 +12,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.webdesignhub.co/website-development-company',
+        canonical: 'https://www.creativelogodesigns.io/website-development-company',
     },
 }
 

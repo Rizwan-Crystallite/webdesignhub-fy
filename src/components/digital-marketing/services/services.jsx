@@ -15,7 +15,7 @@ const Services = () => {
                         <h2 className="text-[20px] sm:text-[25px] xl:text-[35px] font-megat font-extrabold leading-tight text-black mb-2">
                             Customized Digital Marketing Services for You
                         </h2>
-                        <p className="text-base text-black font-normal">Our marketing team at Web Design Hub creates a digital marketing strategy that is completely unique and customized for your business. If you are ready for the digital revolution, let's kickstart the journey today!</p>
+                        <p className="text-base text-black font-normal">Our marketing team at Creative Logo Designs creates a digital marketing strategy that is completely unique and customized for your business. If you are ready for the digital revolution, let's kickstart the journey today!</p>
                     </div>
                     <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
                         <CTA

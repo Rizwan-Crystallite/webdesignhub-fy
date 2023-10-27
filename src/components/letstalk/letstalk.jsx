@@ -46,7 +46,7 @@ const Letstalk = () => {
                             "WebkitTextStrokeWidth": "0.1rem", "WebkitTextStrokeColor": "#fff"
                         }}>JOIN THE</h2>
                         <h2 className="text-[40px] lg:text-[60px] text-black md:text-white font-normal">
-                            WebDesignHub <span className="font-megat font-extrabold">Family</span>
+                            Creative Logo Designs <span className="font-megat font-extrabold">Family</span>
                         </h2>
                     </div>
                 </div>

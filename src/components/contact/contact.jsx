@@ -71,7 +71,7 @@ const contact = () => {
                                     <h2 className="text-xl sm:text-2xl font-megat text-white font-normal leading-none mb-3">
                                         WRITE TO US!
                                     </h2>
-                                    <div dangerouslySetInnerHTML={{ __html: `<a href="mailto:info@webdesignhub.Co" class="text-[18px] font-medium text-[#ffffffc4]">Info@WebDesignHub.Co</a>` }} />
+                                    <div dangerouslySetInnerHTML={{ __html: `<a href="mailto:info@creativelogodesigns.io" class="text-[18px] font-medium text-[#ffffffc4]">Info@creativelogodesigns.io</a>` }} />
                                 </div>
                                 <div>
                                     <h2 className="text-xl sm:text-2xl font-megat text-white font-normal leading-none mb-3">

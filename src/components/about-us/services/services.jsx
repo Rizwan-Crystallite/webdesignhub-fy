@@ -15,7 +15,7 @@ const Services = () => {
                         <h2 className="text-[20px] sm:text-[25px] xl:text-[35px] font-megat font-extrabold leading-tight text-black mb-2">
                             Redefining Web Design & Development Standards
                         </h2>
-                        <p className="text-base text-black font-normal">At Web Design Hub, our expertise goes beyond web design. We excel in crafting captivating custom logos, illustrations, and dynamic motion graphics, enhancing your brand's visual appeal and impact.</p>
+                        <p className="text-base text-black font-normal">At Creative Logo Designs, our expertise goes beyond web design. We excel in crafting captivating custom logos, illustrations, and dynamic motion graphics, enhancing your brand's visual appeal and impact.</p>
                     </div>
                     <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
                         <CTA

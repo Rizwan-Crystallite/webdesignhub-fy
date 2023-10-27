@@ -29,7 +29,7 @@ const Page = () => {
     const smallbanner = {
         page: "digitalMarketing",
         title: "Get Noticed Online Our Creative Digital Marketing Company",
-        desc: "Let Web Design Hub be your point of reference as you create and improve your digital presence.",
+        desc: "Let Creative Logo Designs be your point of reference as you create and improve your digital presence.",
         img: {
             src: "/digital-marketing/smallBanner.png",
             width: "515",
@@ -52,25 +52,25 @@ const Page = () => {
     // Array for Reviews Component Props
     const reviews = [
         {
-            message: "Web Design Hub's e-commerce digital marketing solutions have skyrocketed our online sales. They're the best at what they do, and our success speaks for itself.",
+            message: "Creative Logo Designs's e-commerce digital marketing solutions have skyrocketed our online sales. They're the best at what they do, and our success speaks for itself.",
             name: "Alice Roger",
             jd: false,
             profile: "/digital-marketing/reviews/1.png"
         },
         {
-            message: "Our consumer goods brand owes its success to Web Design Hub's digital marketing prowess. They understand our industry like no one else, truly the best.",
+            message: "Our consumer goods brand owes its success to Creative Logo Designs's digital marketing prowess. They understand our industry like no one else, truly the best.",
             name: "Michael Sorsen",
             jd: false,
             profile: "/digital-marketing/reviews/2.png"
         },
         {
-            message: "Web Design Hub's service-focused digital marketing transformed our business. Their expertise shines, and they've earned their reputation as the best in the field.",
+            message: "Creative Logo Designs's service-focused digital marketing transformed our business. Their expertise shines, and they've earned their reputation as the best in the field.",
             name: "Billy Benson",
             jd: false,
             profile: "/digital-marketing/reviews/3.png"
         },
         {
-            message: "I couldn't be happier with Web Design Hub's digital marketing for our service-based company. Their results are unmatched, solidifying their status as the best in the business.",
+            message: "I couldn't be happier with Creative Logo Designs's digital marketing for our service-based company. Their results are unmatched, solidifying their status as the best in the business.",
             name: "Robert Lee",
             jd: false,
             profile: "/digital-marketing/reviews/4.png"
@@ -95,10 +95,10 @@ const Page = () => {
                             "@context": "http://schema.org/",
                             "@type": "Product",
                             "name": "Digital Marketing Company",
-                            "description": "WebDesignHub is a top-tier Digital Marketing Company. Our expert team drives results to amplify your online presence. Boost your brand with us.",
+                            "description": "Creative Logo Designs is a top-tier Digital Marketing Company. Our expert team drives results to amplify your online presence. Boost your brand with us.",
                             "brand": {
                                 "@type": "brand",
-                                "name": "WebDesignHub"
+                                "name": "Creative Logo Designs"
                             },
                             "aggregateRating": {
                                 "@type": "AggregateRating",

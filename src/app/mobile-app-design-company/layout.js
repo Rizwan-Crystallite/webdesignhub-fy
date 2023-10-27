@@ -12,7 +12,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.webdesignhub.co/mobile-app-design-company',
+        canonical: 'https://www.creativelogodesigns.io/mobile-app-design-company',
     }
 }
 

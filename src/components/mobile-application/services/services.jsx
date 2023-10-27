@@ -16,7 +16,7 @@ const Services = () => {
                             Agile Mobile Application Development &
                             Design Company
                         </h2>
-                        <p className="text-base text-black font-normal">At Web Design Hub, our app developers utilize an Agile approach to build mobile apps through close collaboration with our clients, ensuring timely delivery of the mobile app design and prototype, while constantly improving the development process.</p>
+                        <p className="text-base text-black font-normal">At Creative Logo Designs, our app developers utilize an Agile approach to build mobile apps through close collaboration with our clients, ensuring timely delivery of the mobile app design and prototype, while constantly improving the development process.</p>
                     </div>
                     <div className="flex items-center flex-col sm:flex-row gap-3 sm:gap-5 mt-5">
                         <CTA

@@ -17,7 +17,7 @@ const Page = () => {
         page: "seoServices",
         subtitle: "From Rankings to Revenue",
         title: "Turbocharge Your Traffic with Our SEO Company!",
-        desc: "Witness the change as our professional SEO company, Web Design Hub, moves you from search engine ranks to higher income. We'll boost website traffic using our tested techniques so you can connect with your target market and experience real company success.",
+        desc: "Witness the change as our professional SEO company, Creative Logo Designs, moves you from search engine ranks to higher income. We'll boost website traffic using our tested techniques so you can connect with your target market and experience real company success.",
         img: {
             src: "/seo-services/hero/hero.png",
             width: "623",
@@ -53,19 +53,19 @@ const Page = () => {
     // Array for Reviews Component Props
     const reviews = [
         {
-            message: "Words cannot explain how thankful I am that Web Design Hub was picked to handle our SEO requirements. They have a very outstanding crew. After we teamed up with them, our website's traffic quickly doubled, and our internet exposure rocketed. Because of their knowledge and commitment, our business is booming like never before. Look no further if you're seeking an SEO company that deliver  real results.",
+            message: "Words cannot explain how thankful I am that Creative Logo Designs was picked to handle our SEO requirements. They have a very outstanding crew. After we teamed up with them, our website's traffic quickly doubled, and our internet exposure rocketed. Because of their knowledge and commitment, our business is booming like never before. Look no further if you're seeking an SEO company that deliver  real results.",
             name: "Sarah Thomas",
             jd: false,
             profile: "/seo-services/reviews/1.png"
         },
         {
-            message: "Our web visibility has changed in ways we could never have predicted because of Web Design Hub. Their staff took the time to learn about our company's objectives right away and then customized an SEO plan that was completely in line with them. The outcomes speak for themselves; our website now appears on the top page for a number of difficult-to-rank keywords, and organic traffic is constantly increasing. I strongly recommend anyone looking for top-notch SEO service contact Web Design Hub.",
+            message: "Our web visibility has changed in ways we could never have predicted because of Creative Logo Designs. Their staff took the time to learn about our company's objectives right away and then customized an SEO plan that was completely in line with them. The outcomes speak for themselves; our website now appears on the top page for a number of difficult-to-rank keywords, and organic traffic is constantly increasing. I strongly recommend anyone looking for top-notch SEO service contact Creative Logo Designs.",
             name: "Johnny Radcliffe",
             jd: false,
             profile: "/seo-services/reviews/2.png"
         },
         {
-            message: "I've worked with an SEO Company before, but working with Web Design Hub has changed everything. Their team's knowledge exceeds others in every way. They not only raised our website's search engine ranks, but they also offered insightful feedback that helped us better our entire internet approach. Since cooperating with them, we have had incredible ROI. I wouldn't trust anybody else to handle our SEO since Web Design Hub is the genuine deal.",
+            message: "I've worked with an SEO Company before, but working with Creative Logo Designs has changed everything. Their team's knowledge exceeds others in every way. They not only raised our website's search engine ranks, but they also offered insightful feedback that helped us better our entire internet approach. Since cooperating with them, we have had incredible ROI. I wouldn't trust anybody else to handle our SEO since Creative Logo Designs is the genuine deal.",
             name: "Emily Madison",
             jd: false,
             profile: "/seo-services/reviews/3.png"
@@ -90,10 +90,10 @@ const Page = () => {
                             "@context": "http://schema.org",
                             "@type": "Product",
                             "name": "Seo Company",
-                            "description": "WebDesignHub world's best SEO Company, employing cutting-edge techniques and strategies to enhance website visibility, drive organic traffic, and boost conversions.",
+                            "description": "Creative Logo Designs world's best SEO Company, employing cutting-edge techniques and strategies to enhance website visibility, drive organic traffic, and boost conversions.",
                             "brand": {
                                 "@type": "brand",
-                                "name": "WebDesignHub"
+                                "name": "Creative Logo Designs"
                             },
                             "aggregateRating": {
                                 "@type": "AggregateRating",

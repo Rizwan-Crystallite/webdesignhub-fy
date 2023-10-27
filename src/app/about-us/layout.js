@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "About Us - Web Design Hub",
-    description: "Discover WebDesignHub's journey and ethos. Driven by innovation and expertise, we're committed to bringing you unparalleled digital solutions. Know our story.",
+    title: "About Us - Creative Logo Designs",
+    description: "Discover Creative Logo Designs's journey and ethos. Driven by innovation and expertise, we're committed to bringing you unparalleled digital solutions. Know our story.",
     // Google Varification
     verification: {
         google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
@@ -12,7 +12,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.webdesignhub.co/about-us',
+        canonical: 'https://www.creativelogodesigns.io/about-us',
     }
 }
 

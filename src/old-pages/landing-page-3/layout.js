@@ -1,8 +1,8 @@
 // Meta Data
 export const metadata = {
     // Title & Descriptions
-    title: "Landing Page 3 | WebDesignHub",
-    description: "WebDesignHub: Your trusted website development company. Craft dynamic, responsive sites tailored to your needs. Unlock your digital potential. Reach out now!",
+    title: "Landing Page 3 | Creative Logo Designs",
+    description: "Creative Logo Designs: Your trusted website development company. Craft dynamic, responsive sites tailored to your needs. Unlock your digital potential. Reach out now!",
     // Google Varification
     verification: {
         google: 'ziIYRBahP4WcKcps6RWRDJvZ9A00pSoI39ByXDN14us',
@@ -12,7 +12,7 @@ export const metadata = {
     },
     // Canonical
     alternates: {
-        canonical: 'https://www.webdesignhub.co/website-design-develop-usa-landing',
+        canonical: 'https://www.creativelogodesigns.io/website-design-develop-usa-landing',
     }
 }
 
